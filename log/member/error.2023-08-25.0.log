@@ -1,0 +1,73 @@
+2023-08-25 14:14:26.116 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:14:27.113 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:14:28.399 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:30.128 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:32.216 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:32.762 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:33.451 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:42.516 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:40.187 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:16:41.743 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:41.950 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:16:42.148 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:42.345 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:17:11.542 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:19:31.075 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:20:11.885 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
+java.lang.RuntimeException: Value for mobile cannot be null
+	at com.example.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at com.example.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at com.example.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at com.example.service.MemberService.selectByMobile(MemberService.java:67)
+	at com.example.service.MemberService.login(MemberService.java:105)
+	at com.example.controller.Membercontroller.login(Membercontroller.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

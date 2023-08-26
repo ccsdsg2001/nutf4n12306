@@ -3,6 +3,7 @@ package com.example.service;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.util.ObjectUtil;
+import cn.hutool.jwt.JWTUtil;
 import com.example.R.MemberLoginReq;
 import com.example.R.MemberSendCodeReq;
 import com.example.R.memberRegisterRequest;
@@ -12,6 +13,7 @@ import com.example.exception.BusinessException;
 import com.example.exception.BusinessExceptionEnum;
 import com.example.mapper.MemberMapper;
 import com.example.resp.MemberLoginResp;
+import com.example.util.JwtUtil;
 import com.example.util.SnowUtil;
 import jakarta.annotation.Resource;
 
@@ -21,6 +23,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author cc
@@ -41,22 +44,22 @@ public class MemberService {
 
     public long register(memberRegisterRequest req) {
         // TODO:手机号注册登录接口（阿里云），第一次登录失败显示验证码。 检验短信频繁，保存短信登录表
-        String mobile1 = req.getMobile();
+        String mobile = req.getMobile();
+        Member memberDB = selectByMobile(mobile);
 
-
-        Member member1 = selectByMobile(mobile1);
         //members 为null yichang
-        if (ObjectUtil.isNotNull(member1)) {
-//            return members.get(0).getId();
+        if (ObjectUtil.isNotNull(memberDB)) {
+            // return list.get(0).getId();
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_EXIST);
         }
 
 
         Member member = new Member();
         member.setId(SnowUtil.getSnowflakeNextId());
-        member.setMobile(mobile1);
+        member.setMobile(mobile);
         memberMapper.insert(member);
         return member.getId();
+
     }
 
     private Member selectByMobile(String mobile) {
@@ -109,8 +112,12 @@ public class MemberService {
             throw new BusinessException(BusinessExceptionEnum.MEMBER_MOBILE_CODE_ERROR);
         }
 
+        MemberLoginResp memberLoginResp = BeanUtil.copyProperties(member1, MemberLoginResp.class);
+        String token = JwtUtil.createToken(memberLoginResp.getId(), memberLoginResp.getMobile());
+        memberLoginResp.setToken(token);
 
-        return BeanUtil.copyProperties(member1, MemberLoginResp.class);
+
+        return memberLoginResp;
 
 
     }

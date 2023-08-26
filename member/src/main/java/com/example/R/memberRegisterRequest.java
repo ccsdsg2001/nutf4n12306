@@ -1,24 +1,29 @@
 package com.example.R;
 
 import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.NotNull;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
 
 /**
  * @author cc
  * @date 2023年08月21日 17:02
  */
 
-@Data
-@Getter
-@Setter
-@ToString
 public class memberRegisterRequest {
 
-    @NotNull
-    @NotBlank(message = "手机号不能为空")
+    @NotBlank(message = "【手机号】不能为空")
     private String mobile;
+
+    public String getMobile() {
+        return mobile;
+    }
+
+    public void setMobile(String mobile) {
+        this.mobile = mobile;
+    }
+
+    @Override
+    public String toString() {
+        return "MemberRegisterReq{" +
+                "mobile='" + mobile + '\'' +
+                '}';
+    }
 }

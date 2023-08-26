@@ -1,12 +1,26 @@
-GET http://localhost:8999/member/member/count
+GET http://localhost:9000/member/member/count
 Accept: application/json
 
 ###
 
 
-POST http://localhost:8999/member/member/register
+POST http://localhost:8001/member/member/register
 Content-Type: application/x-www-form-urlencoded
 
-mobile=123456780
+mobile=13032223231
 
 ###
+
+GET http://localhost:8001/member/passenger/query-list
+Accept: application/json
+
+
+###
+
+POST http://localhost:8001/member/member/login
+Content-Type: application/json
+
+{
+  "mobile": "13032223231",
+  "code": "8888"
+}

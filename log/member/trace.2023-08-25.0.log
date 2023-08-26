@@ -1,0 +1,232 @@
+2023-08-25 14:03:27.448 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-25 14:03:27.502 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 12136 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-25 14:03:27.503 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-25 14:03:27.557 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-25 14:03:27.557 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-25 14:03:28.468 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9990d269-1672-30dc-aea3-6a6dfe5237e1
+2023-08-25 14:03:29.854 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-25 14:03:29.867 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:03:29.868 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-25 14:03:29.868 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-25 14:03:29.933 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-25 14:03:29.934 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 2375 ms
+2023-08-25 14:03:30.979 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-25 14:03:32.184 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-25 14:03:32.240 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:03:32.257 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-25 14:03:33.412 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-25 14:03:33.420 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 8.099 seconds (process running for 9.187)
+2023-08-25 14:03:33.423 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-25 14:03:33.423 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-25 14:04:53.315 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-25 14:04:53.363 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 19784 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-25 14:04:53.365 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-25 14:04:53.413 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-25 14:04:53.414 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-25 14:04:54.156 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9990d269-1672-30dc-aea3-6a6dfe5237e1
+2023-08-25 14:04:54.832 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-25 14:04:54.840 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:04:54.841 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-25 14:04:54.841 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-25 14:04:54.894 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-25 14:04:54.895 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1481 ms
+2023-08-25 14:04:55.669 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-25 14:04:56.842 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-25 14:04:56.886 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:04:56.902 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-25 14:04:58.065 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-25 14:04:58.074 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 6.56 seconds (process running for 7.306)
+2023-08-25 14:04:58.076 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-25 14:04:58.077 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-25 14:14:22.645 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25 14:14:22.645 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-25 14:14:22.646 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-25 14:14:22.859 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-08-25 14:14:23.933 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d375ac4
+2023-08-25 14:14:23.934 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-08-25 14:14:23.946 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:14:23.983 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:14:24.052 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:14:24.052 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:14:24.054 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:14:24.062 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:14:24.063 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:14:24.066 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:14:24.066 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:14:24.067 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:14:24.067 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:14:24.109 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:14:24.110 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:14:24.110 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:14:24.111 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:14:24.111 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:14:24.111 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:14:24.112 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:14:24.112 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:14:24.112 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:14:24.157 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:14:24.158 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:14:24.159 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:14:24.159 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:14:24.160 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:14:24.160 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:14:24.160 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:14:24.160 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:14:24.161 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:14:24.201 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:14:24.202 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:14:24.203 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:14:24.203 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:14:24.204 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:14:24.204 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:14:24.204 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:14:26.116 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:14:26.121 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:14:27.113 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:14:27.114 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:14:28.399 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:28.400 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:14:30.128 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:30.130 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:14:32.216 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:32.218 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:14:32.762 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:32.764 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:14:33.451 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:33.452 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:14:42.516 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:14:42.517 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:16:33.644 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:16:33.644 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:16:33.681 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:16:33.681 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:16:33.681 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:16:33.682 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:16:33.682 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:16:33.682 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:16:33.682 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:16:37.331 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==>  Preparing: select id, mobile from member WHERE ( mobile = ? )
+2023-08-25 14:16:37.332 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m ==> Parameters: 13000000000(String)
+2023-08-25 14:16:37.389 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==    Columns: id, mobile
+2023-08-25 14:16:37.390 TRACE com.example.mapper.MemberMapper.selectByExample   :143  [32m                  [0;39m <==        Row: 1694269670217093120, 13000000000
+2023-08-25 14:16:37.391 DEBUG com.example.mapper.MemberMapper.selectByExample   :137  [32m                  [0;39m <==      Total: 1
+2023-08-25 14:16:37.391 INFO  com.example.service.MemberService                 :87   [32m                  [0;39m 手机号存在
+2023-08-25 14:16:37.392 INFO  com.example.service.MemberService                 :93   [32m                  [0;39m 生成短信验证码
+2023-08-25 14:16:37.392 INFO  com.example.service.MemberService                 :95   [32m                  [0;39m 保存短信记录表
+2023-08-25 14:16:37.392 INFO  com.example.service.MemberService                 :97   [32m                  [0;39m 对接短信通道，发送短信
+2023-08-25 14:16:40.187 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:16:40.189 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:16:41.743 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:41.746 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:16:41.950 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:16:41.953 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:16:42.148 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:42.151 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:16:42.345 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:16:42.346 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
+2023-08-25 14:17:11.542 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【短信验证码】不能为空
+2023-08-25 14:17:11.543 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:19:18.151 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-08-25 14:19:18.596 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-08-25 14:19:24.495 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-25 14:19:24.534 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 16612 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-25 14:19:24.535 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-25 14:19:24.588 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-25 14:19:24.588 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-25 14:19:25.391 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9990d269-1672-30dc-aea3-6a6dfe5237e1
+2023-08-25 14:19:26.139 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-25 14:19:26.149 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:19:26.150 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-25 14:19:26.150 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-25 14:19:26.211 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-25 14:19:26.212 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1622 ms
+2023-08-25 14:19:27.107 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-25 14:19:27.446 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:19:27.468 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-25 14:19:27.724 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 4.043 seconds (process running for 4.838)
+2023-08-25 14:19:27.727 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-25 14:19:27.728 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-25 14:19:30.969 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25 14:19:30.970 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-25 14:19:30.971 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-25 14:19:31.075 ERROR com.example.controller.ControllerExceptionHandler :65   [32m                  [0;39m 校验异常：【手机号】不能为空
+2023-08-25 14:19:31.147 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 1 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
+2023-08-25 14:19:54.771 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-25 14:19:54.812 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 22592 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-25 14:19:54.813 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-25 14:19:54.860 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-25 14:19:54.861 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-25 14:19:55.685 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=9990d269-1672-30dc-aea3-6a6dfe5237e1
+2023-08-25 14:19:56.474 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-08-25 14:19:56.488 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:19:56.489 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-08-25 14:19:56.489 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-08-25 14:19:56.550 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-08-25 14:19:56.551 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1690 ms
+2023-08-25 14:19:57.526 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-25 14:19:57.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-08-25 14:19:57.859 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-08-25 14:19:58.126 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 4.185 seconds (process running for 4.939)
+2023-08-25 14:19:58.131 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-25 14:19:58.132 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-25 14:20:11.780 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-25 14:20:11.781 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2023-08-25 14:20:11.783 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
+2023-08-25 14:20:11.885 ERROR o.a.c.c.C.[.[.[/member].[dispatcherServlet]       :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/member] threw exception [Request processing failed: java.lang.RuntimeException: Value for mobile cannot be null] with root cause
+java.lang.RuntimeException: Value for mobile cannot be null
+	at com.example.domain.MemberExample$GeneratedCriteria.addCriterion(MemberExample.java:95)
+	at com.example.domain.MemberExample$GeneratedCriteria.andMobileEqualTo(MemberExample.java:178)
+	at com.example.domain.MemberExample$Criteria.andMobileEqualTo(MemberExample.java:238)
+	at com.example.service.MemberService.selectByMobile(MemberService.java:67)
+	at com.example.service.MemberService.login(MemberService.java:105)
+	at com.example.controller.Membercontroller.login(Membercontroller.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:906)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

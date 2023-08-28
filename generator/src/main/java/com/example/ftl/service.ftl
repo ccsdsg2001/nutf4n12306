@@ -6,7 +6,7 @@ import cn.hutool.core.util.ObjectUtil;
 import com.example.R.PageResp;
 import com.example.R.${Domain}QueryReq;
 import com.example.R.${Domain}Req;
-import com.example.context.LoginMemberContext;
+
 import com.example.domain.${Domain};
 import com.example.domain.${Domain}Example;
 import com.example.mapper.${Domain}Mapper;
@@ -38,7 +38,6 @@ public class ${Domain}Service {
         ${Domain} ${domain} = BeanUtil.copyProperties(req, ${Domain}.class);
 
         if(ObjectUtil.isNull(${domain}.getId())){
-            ${domain}.setMemberId(LoginMemberContext.getId());
             ${domain}.setId(SnowUtil.getSnowflakeNextId());
             ${domain}.setCreateTime(now);
             ${domain}.setUpdateTime(now);
@@ -58,9 +57,8 @@ public class ${Domain}Service {
         ${Domain}Example ${domain}Example = new ${Domain}Example();
         ${domain}Example.setOrderByClause("id desc");
         ${Domain}Example.Criteria criteria = ${domain}Example.createCriteria();
-        if(ObjectUtil.isNotNull(req.getMemberId())){
-            criteria.andMemberIdEqualTo(req.getMemberId());
-        }
+
+
 
         PageHelper.startPage(req.getPage(),req.getSize());
         List<${Domain}> ${domain}s = ${domain}Mapper.selectByExample(${domain}Example);

@@ -1,0 +1,75 @@
+2023-08-26 13:49:16.549 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-26 13:49:16.619 INFO  com.example.config.gatewayMain                    :51   [32m                  [0;39m Starting gatewayMain using Java 17.0.5 with PID 14408 (E:\workplace\nutf4n12306\gateway\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:49:16.621 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:49:16.694 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-26 13:49:16.695 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-26 13:49:17.699 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cd6f37cf-bdb9-3a53-b720-34dd934fc231
+2023-08-26 13:49:19.367 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-26 13:49:19.810 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-08-26 13:49:19.810 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-08-26 13:49:19.810 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-08-26 13:49:19.811 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-08-26 13:49:19.811 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-08-26 13:49:19.812 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-08-26 13:49:19.812 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-08-26 13:49:19.813 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-08-26 13:49:19.814 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-08-26 13:49:19.814 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-08-26 13:49:19.814 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-08-26 13:49:19.814 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-08-26 13:49:19.815 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-08-26 13:49:19.815 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-08-26 13:49:20.095 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-26 13:49:21.368 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-26 13:49:21.739 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-08-26 13:49:23.035 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-26 13:49:24.294 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-08-26 13:49:24.378 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 9.735 seconds (process running for 10.623)
+2023-08-26 13:49:24.384 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-08-26 13:49:24.385 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello
+2023-08-26 13:49:29.632 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2023-08-26 13:49:52.397 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:49:52.398 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:49:52.399 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:50:17.861 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2023-08-26 13:55:03.394 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:03.395 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:03.395 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:09.684 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:09.685 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:09.685 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:13.421 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:13.422 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:13.422 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:35.047 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:35.047 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:35.047 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:36.687 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:36.687 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:36.687 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:46.984 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:46.985 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:46.985 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:48.420 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:48.421 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:48.421 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:48.906 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:48.906 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:48.906 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:49.148 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:49.148 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:49.149 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:49.329 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:49.330 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:49.330 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:49.494 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:49.494 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:49.494 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:55:49.653 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:55:49.653 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:55:49.654 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 13:57:17.948 INFO  com.example.config.LoginMemberFilter              :34   [32m                  [0;39m 需要登录验证：/member/member/register
+2023-08-26 13:57:17.949 INFO  com.example.config.LoginMemberFilter              :38   [32m                  [0;39m 会员登录验证开始，token：null
+2023-08-26 13:57:17.949 INFO  com.example.config.LoginMemberFilter              :40   [32m                  [0;39m token为空，请求被拦截
+2023-08-26 14:06:12.645 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/member/member/login
+2023-08-26 14:10:55.360 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/member/member/login

@@ -1,4 +1,4 @@
-package com.example.controller;
+package com.example.controller.admin;
 
 import com.example.R.*;
 import com.example.context.LoginMemberContext;
@@ -15,14 +15,14 @@ import java.util.List;
  * @date 2023年08月20日 18:28
  */
 @RestController
-@RequestMapping("/${do_main}")
+@RequestMapping("/admin/${do_main}")
 public class ${Domain}controller {
 
     @Resource
     private ${Domain}Service ${domain}Service;
 
     @PostMapping("/save")
-    public CommonResp<Object> test(@Valid @RequestBody ${Domain}Req req){
+    public CommonResp<Object> test(@Valid @RequestBody ${Domain}SaveReq req){
 
         ${domain}Service.save(req);
         return new CommonResp<>();
@@ -31,7 +31,7 @@ public class ${Domain}controller {
 
     @GetMapping("/query-list")
 public CommonResp<List<${Domain}QueryResp>> querylist(@Valid  ${Domain}QueryReq req){
-        req.setMemberId(LoginMemberContext.getId());
+
         List<${Domain}QueryResp> query = (List<${Domain}QueryResp>) ${domain}Service.query(req);
         return new CommonResp<>(query);
     }

@@ -33,7 +33,7 @@ public class ${Domain}Service {
     @Resource
     private ${Domain}Mapper ${domain}Mapper;
 
-    public void save(${Domain}Req req){
+    public void save(${Domain}SaveReq req){
         DateTime now = DateTime.now();
         ${Domain} ${domain} = BeanUtil.copyProperties(req, ${Domain}.class);
 

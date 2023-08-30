@@ -2,11 +2,11 @@ package com.example.req;
 
 import com.example.req.PageReq;
 
-public class ${Domain}QueryReq extends PageReq {
+public class TrainQueryReq extends PageReq {
 
     @Override
     public String toString() {
-        return "${Domain}QueryReq{" +
+        return "TrainQueryReq{" +
                 "} " + super.toString();
     }
 }

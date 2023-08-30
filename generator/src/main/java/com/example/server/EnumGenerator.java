@@ -3,6 +3,7 @@ package com.example.server;
 
 import cn.hutool.core.util.StrUtil;
 import com.example.enums.PassengerTypeEnum;
+import com.example.enums.TrainTypeEnum;
 
 
 import java.io.FileOutputStream;
@@ -16,7 +17,7 @@ import java.util.List;
 
 public class EnumGenerator {
     // static String path = "web/src/assets/js/enums.js";
-    static String path = "admin/src/assets/js/enums.js";
+    static String path = "admin/src/views/main/enums.js";
 
     public static void main(String[] args) {
         StringBuffer bufferObject = new StringBuffer();
@@ -24,7 +25,7 @@ public class EnumGenerator {
         long begin = System.currentTimeMillis();
         try {
             toJson(PassengerTypeEnum.class, bufferObject, bufferArray);
-//            toJson(TrainTypeEnum.class, bufferObject, bufferArray);
+            toJson(TrainTypeEnum.class, bufferObject, bufferArray);
 //            toJson(SeatTypeEnum.class, bufferObject, bufferArray);
 //            toJson(SeatColEnum.class, bufferObject, bufferArray);
 //            toJson(ConfirmOrderStatusEnum.class, bufferObject, bufferArray);

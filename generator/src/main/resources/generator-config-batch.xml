@@ -23,28 +23,26 @@
 
         <!-- 配置数据源，需要根据自己的项目修改 -->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://140.210.221.183/train_business?serverTimezone=Asia/Shanghai"
+                        connectionURL="jdbc:mysql://140.210.221.183/train_batch?serverTimezone=Asia/Shanghai"
                         userId="root"
                         password="123456">
         </jdbcConnection>
 
         <!-- domain类的位置 targetProject是相对pom.xml的路径-->
-        <javaModelGenerator targetProject="../business/src/main/java"
+        <javaModelGenerator targetProject="../batch/src/main/java"
                             targetPackage="com.example.domain"/>
 
         <!-- mapper xml的位置 targetProject是相对pom.xml的路径 -->
-        <sqlMapGenerator targetProject="../business/src/main/resources"
+        <sqlMapGenerator targetProject="../batch/src/main/resources"
                          targetPackage="mapper"/>
 
         <!-- mapper类的位置 targetProject是相对pom.xml的路径 -->
-        <javaClientGenerator targetProject="../business/src/main/java"
+        <javaClientGenerator targetProject="../batch/src/main/java"
                              targetPackage="com.example.mapper"
                              type="XMLMAPPER"/>
 
 <!--        <table tableName="station" domainObjectName="Station"/>-->
-<!--        <table tableName="train_seat" domainObjectName="TrainSeat"/>-->
-<!--        <table tableName="daily_train_seat" domainObjectName="DailyTrainSeat"/>-->
-        <table tableName="daily_train_ticket" domainObjectName="DailyTrainTicket"/>
+        <table tableName="train_seat" domainObjectName="TrainSeat"/>
 <!--        <table tableName="passenger" domainObjectName="Passenger"/>-->
 <!--        <table tableName="ticket" domainObjectName="Ticket"/>-->
     </context>

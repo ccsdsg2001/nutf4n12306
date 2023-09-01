@@ -1,0 +1,50 @@
+2023-08-28 13:07:37.159 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-28 13:07:37.211 INFO  com.example.config.gatewayMain                    :51   [32m                  [0;39m Starting gatewayMain using Java 17.0.5 with PID 3936 (E:\workplace\nutf4n12306\gateway\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-28 13:07:37.212 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-28 13:07:37.261 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-28 13:07:37.262 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-28 13:07:37.991 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cd6f37cf-bdb9-3a53-b720-34dd934fc231
+2023-08-28 13:07:38.773 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-08-28 13:07:38.774 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-08-28 13:07:38.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-08-28 13:07:38.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-08-28 13:07:38.775 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-08-28 13:07:38.951 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-28 13:07:39.321 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-08-28 13:07:39.627 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 3.204 seconds (process running for 4.094)
+2023-08-28 13:07:39.632 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-08-28 13:07:39.632 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello
+2023-08-28 21:21:41.992 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-08-28 21:21:42.043 INFO  com.example.config.gatewayMain                    :51   [32m                  [0;39m Starting gatewayMain using Java 17.0.5 with PID 28024 (E:\workplace\nutf4n12306\gateway\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-28 21:21:42.044 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-28 21:21:42.098 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-28 21:21:42.098 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-28 21:21:42.971 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cd6f37cf-bdb9-3a53-b720-34dd934fc231
+2023-08-28 21:21:43.767 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-08-28 21:21:43.768 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-08-28 21:21:43.768 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-08-28 21:21:43.768 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-08-28 21:21:43.768 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-08-28 21:21:43.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-08-28 21:21:43.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-08-28 21:21:43.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-08-28 21:21:43.769 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-08-28 21:21:43.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-08-28 21:21:43.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-08-28 21:21:43.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-08-28 21:21:43.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-08-28 21:21:43.770 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-08-28 21:21:43.962 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-08-28 21:21:44.397 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-08-28 21:21:44.720 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 3.711 seconds (process running for 4.825)
+2023-08-28 21:21:44.723 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-08-28 21:21:44.723 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello

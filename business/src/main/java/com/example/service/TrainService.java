@@ -85,12 +85,16 @@ public class TrainService {
     }
 
     public List<TrainQueryResp> queryAll(){
-        TrainExample trainExample = new TrainExample();
-        trainExample.setOrderByClause("code desc");
-        List<Train> trains = trainMapper.selectByExample(trainExample);
-        return BeanUtil.copyToList(trains,TrainQueryResp.class);
+        List<Train> trainList = selectAll();
+        // LOG.info("再查一次");
+        // trainList = selectAll();
+        return BeanUtil.copyToList(trainList, TrainQueryResp.class);
     }
-
+    public List<Train> selectAll() {
+        TrainExample trainExample = new TrainExample();
+        trainExample.setOrderByClause("code asc");
+        return trainMapper.selectByExample(trainExample);
+    }
     private Train selectByUnique(String  code) {
         TrainExample stationExample = new TrainExample();
         stationExample.createCriteria().andCodeEqualTo(code);

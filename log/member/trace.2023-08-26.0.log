@@ -1,6 +1,6 @@
 2023-08-26 13:49:23.764 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 13:49:23.834 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 5296 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 13:49:23.837 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:49:23.834 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 5296 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:49:23.837 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 13:49:23.910 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 13:49:23.911 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 13:49:25.070 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -15,9 +15,9 @@
 2023-08-26 13:49:28.401 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 13:49:28.420 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 13:49:29.589 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 13:49:29.603 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.825 seconds (process running for 8.697)
-2023-08-26 13:49:29.609 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 13:49:29.611 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 13:49:29.603 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.825 seconds (process running for 8.697)
+2023-08-26 13:49:29.609 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 13:49:29.611 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 13:49:29.871 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 13:49:29.871 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 13:49:29.872 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -26,8 +26,8 @@
 2023-08-26 13:50:17.865 ERROR com.example.controller.ControllerExceptionHandler :65   [32m1693029017865u36  [0;39m 校验异常：【手机号】不能为空
 2023-08-26 13:50:17.867 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1693029017865u36  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]]
 2023-08-26 13:53:43.573 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 13:53:43.617 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 14188 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 13:53:43.619 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:53:43.617 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 14188 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:53:43.619 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 13:53:43.667 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 13:53:43.667 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 13:53:44.642 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -42,12 +42,12 @@
 2023-08-26 13:53:47.948 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 13:53:47.966 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 13:53:49.159 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 13:53:49.169 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.399 seconds (process running for 8.205)
-2023-08-26 13:53:49.174 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 13:53:49.174 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 13:53:49.169 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.399 seconds (process running for 8.205)
+2023-08-26 13:53:49.174 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 13:53:49.174 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 13:54:42.686 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 13:54:42.728 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 8752 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 13:54:42.730 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:54:42.728 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 8752 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:54:42.730 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 13:54:42.780 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 13:54:42.780 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 13:54:43.751 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -62,9 +62,9 @@
 2023-08-26 13:54:47.120 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 13:54:47.140 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 13:54:48.348 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 13:54:48.361 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.473 seconds (process running for 8.309)
-2023-08-26 13:54:48.364 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 13:54:48.365 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 13:54:48.361 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.473 seconds (process running for 8.309)
+2023-08-26 13:54:48.364 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 13:54:48.365 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 13:56:08.051 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 13:56:08.052 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 13:56:08.053 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1319,8 +1319,8 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 	at java.base/java.lang.Thread.run(Thread.java:833)
 2023-08-26 13:56:14.989 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m                  [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
 2023-08-26 13:57:02.667 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 13:57:02.727 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 19468 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 13:57:02.729 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:57:02.727 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 19468 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:57:02.729 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 13:57:02.799 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 13:57:02.799 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 13:57:03.986 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1335,9 +1335,9 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 13:57:07.868 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 13:57:07.893 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 13:57:09.115 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 13:57:09.129 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 8.548 seconds (process running for 10.196)
-2023-08-26 13:57:09.133 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 13:57:09.134 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 13:57:09.129 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 8.548 seconds (process running for 10.196)
+2023-08-26 13:57:09.133 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 13:57:09.134 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 13:57:26.900 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 13:57:26.901 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 13:57:26.902 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1354,8 +1354,8 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 13:57:46.289 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-08-26 13:57:46.727 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
 2023-08-26 13:57:50.902 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 13:57:50.953 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 3004 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 13:57:50.955 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 13:57:50.953 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 3004 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 13:57:50.955 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 13:57:51.008 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 13:57:51.009 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 13:57:52.061 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1370,9 +1370,9 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 13:57:55.578 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 13:57:55.603 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 13:57:56.836 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 13:57:56.849 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.76 seconds (process running for 8.573)
-2023-08-26 13:57:56.854 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 13:57:56.855 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 13:57:56.849 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.76 seconds (process running for 8.573)
+2023-08-26 13:57:56.854 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 13:57:56.855 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 13:58:11.202 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 13:58:11.203 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 13:58:11.204 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1396,8 +1396,8 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 14:00:42.519 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-08-26 14:00:42.895 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
 2023-08-26 14:00:55.686 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:00:55.742 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 17564 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:00:55.744 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:00:55.742 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 17564 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:00:55.744 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:00:55.807 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:00:55.807 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:00:56.923 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1412,9 +1412,9 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 14:01:00.727 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 14:01:00.752 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 14:01:01.966 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:01:01.980 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 8.331 seconds (process running for 9.34)
-2023-08-26 14:01:01.983 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:01:01.984 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:01:01.980 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 8.331 seconds (process running for 9.34)
+2023-08-26 14:01:01.983 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:01:01.984 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:01:04.177 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 14:01:04.178 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 14:01:04.179 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1432,8 +1432,8 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 14:03:22.908 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-08-26 14:03:23.332 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
 2023-08-26 14:03:28.977 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:03:29.021 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 14092 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:03:29.022 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:03:29.021 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 14092 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:03:29.022 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:03:29.073 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:03:29.074 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:03:30.124 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1448,9 +1448,9 @@ org.springframework.web.HttpRequestMethodNotSupportedException: Request method '
 2023-08-26 14:03:33.647 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 14:03:33.667 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 14:03:34.827 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:03:34.842 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.709 seconds (process running for 8.566)
-2023-08-26 14:03:34.846 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:03:34.847 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:03:34.842 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.709 seconds (process running for 8.566)
+2023-08-26 14:03:34.846 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:03:34.847 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:03:37.741 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 14:03:37.742 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 14:03:37.743 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1558,8 +1558,8 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2023-08-26 14:05:09.168 INFO  com.example.interceptor.MemberInterceptor         :37   [32m169302990916793o  [0;39m MemberInterceptor结束
 2023-08-26 14:05:09.309 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-08-26 14:05:13.797 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:05:13.834 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 26468 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:05:13.835 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:05:13.834 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 26468 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:05:13.835 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:05:13.884 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:05:13.884 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:05:14.735 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1574,9 +1574,9 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2023-08-26 14:05:17.594 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 14:05:17.615 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 14:05:18.788 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:05:18.801 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 6.773 seconds (process running for 8.353)
-2023-08-26 14:05:18.804 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:05:18.805 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:05:18.801 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 6.773 seconds (process running for 8.353)
+2023-08-26 14:05:18.804 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:05:18.805 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:05:33.896 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 14:05:33.897 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 14:05:33.898 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1695,8 +1695,8 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2023-08-26 14:10:42.237 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2023-08-26 14:10:42.678 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
 2023-08-26 14:10:46.557 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:10:46.604 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 23384 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:10:46.605 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:10:46.604 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 23384 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:10:46.605 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:10:46.651 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:10:46.652 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:10:47.472 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1711,9 +1711,9 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2023-08-26 14:10:50.440 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 14:10:50.456 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 14:10:51.578 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:10:51.590 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 6.797 seconds (process running for 7.991)
-2023-08-26 14:10:51.594 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:10:51.594 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:10:51.590 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 6.797 seconds (process running for 7.991)
+2023-08-26 14:10:51.594 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:10:51.594 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:10:55.427 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 14:10:55.428 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 14:10:55.429 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms
@@ -1768,8 +1768,8 @@ com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long
 2023-08-26 14:11:17.874 ERROR com.example.controller.ControllerExceptionHandler :65   [32m1693030277874z4y  [0;39m 校验异常：【短信验证码】不能为空
 2023-08-26 14:11:17.875 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  [32m1693030277874z4y  [0;39m Resolved [org.springframework.validation.BindException: org.springframework.validation.BeanPropertyBindingResult: 2 errors<EOL>Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]<EOL>Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]]
 2023-08-26 14:12:04.689 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:12:04.742 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 5864 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:12:04.744 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:12:04.742 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 5864 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:12:04.744 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:12:04.806 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:12:04.806 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:12:05.766 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1847,12 +1847,12 @@ java.lang.RuntimeException: Value for mobile cannot be null
 2023-08-26 14:12:09.862 INFO  com.example.interceptor.MemberInterceptor         :27   [32m1693030329862dlf  [0;39m MemberInterceptor开始
 2023-08-26 14:12:09.863 INFO  com.example.interceptor.MemberInterceptor         :37   [32m1693030329862dlf  [0;39m MemberInterceptor结束
 2023-08-26 14:12:10.077 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:12:10.090 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.161 seconds (process running for 8.123)
-2023-08-26 14:12:10.094 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:12:10.095 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:12:10.090 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.161 seconds (process running for 8.123)
+2023-08-26 14:12:10.094 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:12:10.095 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:14:05.951 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
-2023-08-26 14:14:05.997 INFO  com.example.MemberMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 20560 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
-2023-08-26 14:14:05.999 INFO  com.example.MemberMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-08-26 14:14:05.997 INFO  com.example.businessMain                            :51   [32m                  [0;39m Starting MemberMain using Java 17.0.5 with PID 20560 (E:\workplace\nutf4n12306\member\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-08-26 14:14:05.999 INFO  com.example.businessMain                            :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
 2023-08-26 14:14:06.051 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-26 14:14:06.051 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
 2023-08-26 14:14:06.883 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=edcfd5b7-5b53-33ab-a6b7-ca328952c1bc
@@ -1867,9 +1867,9 @@ java.lang.RuntimeException: Value for mobile cannot be null
 2023-08-26 14:14:10.582 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8001"]
 2023-08-26 14:14:10.616 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
 2023-08-26 14:14:11.780 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
-2023-08-26 14:14:11.797 INFO  com.example.MemberMain                            :57   [32m                  [0;39m Started MemberMain in 7.676 seconds (process running for 8.632)
-2023-08-26 14:14:11.806 INFO  com.example.MemberMain                            :21   [32m                  [0;39m 启动成功！！
-2023-08-26 14:14:11.807 INFO  com.example.MemberMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
+2023-08-26 14:14:11.797 INFO  com.example.businessMain                            :57   [32m                  [0;39m Started MemberMain in 7.676 seconds (process running for 8.632)
+2023-08-26 14:14:11.806 INFO  com.example.businessMain                            :21   [32m                  [0;39m 启动成功！！
+2023-08-26 14:14:11.807 INFO  com.example.businessMain                            :22   [32m                  [0;39m 测试地址: 	http://127.0.0.1:8001/member/hello
 2023-08-26 14:14:17.482 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-08-26 14:14:17.483 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
 2023-08-26 14:14:17.484 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 1 ms

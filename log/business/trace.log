@@ -8128,3 +8128,131 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.doma
 2023-09-02 01:00:15.956 INFO  com.example.aspect.LogAspect                      :51   [32m16935876159569mb  [0;39m 远程地址: 127.0.0.1
 2023-09-02 01:00:15.957 INFO  com.example.aspect.LogAspect                      :72   [32m16935876159569mb  [0;39m 请求参数: [1694880000000]
 2023-09-02 01:00:15.994 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876159569mb  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:15.994 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876159569mb  [0;39m ==> Parameters: 
+2023-09-02 01:00:16.046 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876159569mb  [0;39m <==      Total: 0
+2023-09-02 01:00:16.047 INFO  com.example.service.DailyTrainService             :117  [32m16935876159569mb  [0;39m 没有车次，任务结束
+2023-09-02 01:00:16.047 INFO  com.example.aspect.LogAspect                      :84   [32m16935876159569mb  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:16.047 INFO  com.example.aspect.LogAspect                      :85   [32m16935876159569mb  [0;39m ------------- 结束 耗时：91 ms -------------
+2023-09-02 01:00:21.009 INFO  com.example.aspect.LogAspect                      :48   [32m1693587621009d3u  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:21.010 INFO  com.example.aspect.LogAspect                      :49   [32m1693587621009d3u  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:21.010 INFO  com.example.aspect.LogAspect                      :50   [32m1693587621009d3u  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:21.010 INFO  com.example.aspect.LogAspect                      :51   [32m1693587621009d3u  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:21.010 INFO  com.example.aspect.LogAspect                      :72   [32m1693587621009d3u  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:21.045 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587621009d3u  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:21.046 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587621009d3u  [0;39m ==> Parameters: 
+2023-09-02 01:00:21.095 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587621009d3u  [0;39m <==      Total: 0
+2023-09-02 01:00:21.096 INFO  com.example.service.DailyTrainService             :117  [32m1693587621009d3u  [0;39m 没有车次，任务结束
+2023-09-02 01:00:21.096 INFO  com.example.aspect.LogAspect                      :84   [32m1693587621009d3u  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:21.096 INFO  com.example.aspect.LogAspect                      :85   [32m1693587621009d3u  [0;39m ------------- 结束 耗时：87 ms -------------
+2023-09-02 01:00:25.947 INFO  com.example.aspect.LogAspect                      :48   [32m1693587625947e1q  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:25.947 INFO  com.example.aspect.LogAspect                      :49   [32m1693587625947e1q  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:25.948 INFO  com.example.aspect.LogAspect                      :50   [32m1693587625947e1q  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:25.948 INFO  com.example.aspect.LogAspect                      :51   [32m1693587625947e1q  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:25.948 INFO  com.example.aspect.LogAspect                      :72   [32m1693587625947e1q  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:25.983 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587625947e1q  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:25.984 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587625947e1q  [0;39m ==> Parameters: 
+2023-09-02 01:00:26.026 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587625947e1q  [0;39m <==      Total: 0
+2023-09-02 01:00:26.027 INFO  com.example.service.DailyTrainService             :117  [32m1693587625947e1q  [0;39m 没有车次，任务结束
+2023-09-02 01:00:26.027 INFO  com.example.aspect.LogAspect                      :84   [32m1693587625947e1q  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:26.027 INFO  com.example.aspect.LogAspect                      :85   [32m1693587625947e1q  [0;39m ------------- 结束 耗时：80 ms -------------
+2023-09-02 01:00:30.897 INFO  com.example.aspect.LogAspect                      :48   [32m1693587630896gdc  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:30.897 INFO  com.example.aspect.LogAspect                      :49   [32m1693587630896gdc  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:30.897 INFO  com.example.aspect.LogAspect                      :50   [32m1693587630896gdc  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:30.897 INFO  com.example.aspect.LogAspect                      :51   [32m1693587630896gdc  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:30.897 INFO  com.example.aspect.LogAspect                      :72   [32m1693587630896gdc  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:30.937 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587630896gdc  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:30.937 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587630896gdc  [0;39m ==> Parameters: 
+2023-09-02 01:00:30.976 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587630896gdc  [0;39m <==      Total: 0
+2023-09-02 01:00:30.977 INFO  com.example.service.DailyTrainService             :117  [32m1693587630896gdc  [0;39m 没有车次，任务结束
+2023-09-02 01:00:30.977 INFO  com.example.aspect.LogAspect                      :84   [32m1693587630896gdc  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:30.977 INFO  com.example.aspect.LogAspect                      :85   [32m1693587630896gdc  [0;39m ------------- 结束 耗时：80 ms -------------
+2023-09-02 01:00:35.917 INFO  com.example.aspect.LogAspect                      :48   [32m1693587635917ypl  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:35.917 INFO  com.example.aspect.LogAspect                      :49   [32m1693587635917ypl  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:35.917 INFO  com.example.aspect.LogAspect                      :50   [32m1693587635917ypl  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:35.918 INFO  com.example.aspect.LogAspect                      :51   [32m1693587635917ypl  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:35.918 INFO  com.example.aspect.LogAspect                      :72   [32m1693587635917ypl  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:35.953 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587635917ypl  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:35.954 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587635917ypl  [0;39m ==> Parameters: 
+2023-09-02 01:00:35.997 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587635917ypl  [0;39m <==      Total: 0
+2023-09-02 01:00:35.998 INFO  com.example.service.DailyTrainService             :117  [32m1693587635917ypl  [0;39m 没有车次，任务结束
+2023-09-02 01:00:35.998 INFO  com.example.aspect.LogAspect                      :84   [32m1693587635917ypl  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:35.998 INFO  com.example.aspect.LogAspect                      :85   [32m1693587635917ypl  [0;39m ------------- 结束 耗时：81 ms -------------
+2023-09-02 01:00:40.921 INFO  com.example.aspect.LogAspect                      :48   [32m1693587640921nuk  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:40.922 INFO  com.example.aspect.LogAspect                      :49   [32m1693587640921nuk  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:40.922 INFO  com.example.aspect.LogAspect                      :50   [32m1693587640921nuk  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:40.922 INFO  com.example.aspect.LogAspect                      :51   [32m1693587640921nuk  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:40.922 INFO  com.example.aspect.LogAspect                      :72   [32m1693587640921nuk  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:40.956 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587640921nuk  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:40.957 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587640921nuk  [0;39m ==> Parameters: 
+2023-09-02 01:00:40.994 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587640921nuk  [0;39m <==      Total: 0
+2023-09-02 01:00:40.995 INFO  com.example.service.DailyTrainService             :117  [32m1693587640921nuk  [0;39m 没有车次，任务结束
+2023-09-02 01:00:40.995 INFO  com.example.aspect.LogAspect                      :84   [32m1693587640921nuk  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:40.995 INFO  com.example.aspect.LogAspect                      :85   [32m1693587640921nuk  [0;39m ------------- 结束 耗时：74 ms -------------
+2023-09-02 01:00:45.922 INFO  com.example.aspect.LogAspect                      :48   [32m16935876459222o7  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:45.922 INFO  com.example.aspect.LogAspect                      :49   [32m16935876459222o7  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:45.922 INFO  com.example.aspect.LogAspect                      :50   [32m16935876459222o7  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:45.922 INFO  com.example.aspect.LogAspect                      :51   [32m16935876459222o7  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:45.922 INFO  com.example.aspect.LogAspect                      :72   [32m16935876459222o7  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:45.958 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876459222o7  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:45.958 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876459222o7  [0;39m ==> Parameters: 
+2023-09-02 01:00:50.121 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876459222o7  [0;39m <==      Total: 0
+2023-09-02 01:00:50.122 INFO  com.example.service.DailyTrainService             :117  [32m16935876459222o7  [0;39m 没有车次，任务结束
+2023-09-02 01:00:50.122 INFO  com.example.aspect.LogAspect                      :84   [32m16935876459222o7  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:50.122 INFO  com.example.aspect.LogAspect                      :85   [32m16935876459222o7  [0;39m ------------- 结束 耗时：4200 ms -------------
+2023-09-02 01:00:51.906 INFO  com.example.aspect.LogAspect                      :48   [32m169358765190688f  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:51.907 INFO  com.example.aspect.LogAspect                      :49   [32m169358765190688f  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:51.907 INFO  com.example.aspect.LogAspect                      :50   [32m169358765190688f  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:51.907 INFO  com.example.aspect.LogAspect                      :51   [32m169358765190688f  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:51.908 INFO  com.example.aspect.LogAspect                      :72   [32m169358765190688f  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:51.951 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m169358765190688f  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:51.951 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m169358765190688f  [0;39m ==> Parameters: 
+2023-09-02 01:00:51.995 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m169358765190688f  [0;39m <==      Total: 0
+2023-09-02 01:00:51.995 INFO  com.example.service.DailyTrainService             :117  [32m169358765190688f  [0;39m 没有车次，任务结束
+2023-09-02 01:00:51.995 INFO  com.example.aspect.LogAspect                      :84   [32m169358765190688f  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:51.995 INFO  com.example.aspect.LogAspect                      :85   [32m169358765190688f  [0;39m ------------- 结束 耗时：89 ms -------------
+2023-09-02 01:00:55.950 INFO  com.example.aspect.LogAspect                      :48   [32m16935876559495y1  [0;39m ------------- 开始 -------------
+2023-09-02 01:00:55.950 INFO  com.example.aspect.LogAspect                      :49   [32m16935876559495y1  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:00:55.950 INFO  com.example.aspect.LogAspect                      :50   [32m16935876559495y1  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:00:55.950 INFO  com.example.aspect.LogAspect                      :51   [32m16935876559495y1  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:00:55.951 INFO  com.example.aspect.LogAspect                      :72   [32m16935876559495y1  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:00:55.995 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876559495y1  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:00:55.996 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876559495y1  [0;39m ==> Parameters: 
+2023-09-02 01:00:56.056 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m16935876559495y1  [0;39m <==      Total: 0
+2023-09-02 01:00:56.057 INFO  com.example.service.DailyTrainService             :117  [32m16935876559495y1  [0;39m 没有车次，任务结束
+2023-09-02 01:00:56.057 INFO  com.example.aspect.LogAspect                      :84   [32m16935876559495y1  [0;39m 返回结果: {"success":true}
+2023-09-02 01:00:56.057 INFO  com.example.aspect.LogAspect                      :85   [32m16935876559495y1  [0;39m ------------- 结束 耗时：107 ms -------------
+2023-09-02 01:01:00.998 INFO  com.example.aspect.LogAspect                      :48   [32m1693587660998byv  [0;39m ------------- 开始 -------------
+2023-09-02 01:01:00.999 INFO  com.example.aspect.LogAspect                      :49   [32m1693587660998byv  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:01:00.999 INFO  com.example.aspect.LogAspect                      :50   [32m1693587660998byv  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:01:00.999 INFO  com.example.aspect.LogAspect                      :51   [32m1693587660998byv  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:01:00.999 INFO  com.example.aspect.LogAspect                      :72   [32m1693587660998byv  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:01:01.050 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587660998byv  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:01:01.051 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587660998byv  [0;39m ==> Parameters: 
+2023-09-02 01:01:01.097 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587660998byv  [0;39m <==      Total: 0
+2023-09-02 01:01:01.098 INFO  com.example.service.DailyTrainService             :117  [32m1693587660998byv  [0;39m 没有车次，任务结束
+2023-09-02 01:01:01.098 INFO  com.example.aspect.LogAspect                      :84   [32m1693587660998byv  [0;39m 返回结果: {"success":true}
+2023-09-02 01:01:01.098 INFO  com.example.aspect.LogAspect                      :85   [32m1693587660998byv  [0;39m ------------- 结束 耗时：100 ms -------------
+2023-09-02 01:01:05.920 INFO  com.example.aspect.LogAspect                      :48   [32m1693587665920ymw  [0;39m ------------- 开始 -------------
+2023-09-02 01:01:05.920 INFO  com.example.aspect.LogAspect                      :49   [32m1693587665920ymw  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:01:05.920 INFO  com.example.aspect.LogAspect                      :50   [32m1693587665920ymw  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:01:05.920 INFO  com.example.aspect.LogAspect                      :51   [32m1693587665920ymw  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:01:05.920 INFO  com.example.aspect.LogAspect                      :72   [32m1693587665920ymw  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:01:05.955 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587665920ymw  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:01:05.956 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587665920ymw  [0;39m ==> Parameters: 
+2023-09-02 01:01:05.996 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587665920ymw  [0;39m <==      Total: 0
+2023-09-02 01:01:05.997 INFO  com.example.service.DailyTrainService             :117  [32m1693587665920ymw  [0;39m 没有车次，任务结束
+2023-09-02 01:01:05.997 INFO  com.example.aspect.LogAspect                      :84   [32m1693587665920ymw  [0;39m 返回结果: {"success":true}
+2023-09-02 01:01:05.997 INFO  com.example.aspect.LogAspect                      :85   [32m1693587665920ymw  [0;39m ------------- 结束 耗时：77 ms -------------
+2023-09-02 01:01:10.960 INFO  com.example.aspect.LogAspect                      :48   [32m1693587670960pu1  [0;39m ------------- 开始 -------------
+2023-09-02 01:01:10.960 INFO  com.example.aspect.LogAspect                      :49   [32m1693587670960pu1  [0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/gen-daily/2023-09-17 GET
+2023-09-02 01:01:10.961 INFO  com.example.aspect.LogAspect                      :50   [32m1693587670960pu1  [0;39m 类名方法: com.example.controller.admin.DailyTrainAdminController.daily
+2023-09-02 01:01:10.961 INFO  com.example.aspect.LogAspect                      :51   [32m1693587670960pu1  [0;39m 远程地址: 127.0.0.1
+2023-09-02 01:01:10.961 INFO  com.example.aspect.LogAspect                      :72   [32m1693587670960pu1  [0;39m 请求参数: [1694880000000]
+2023-09-02 01:01:10.996 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587670960pu1  [0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc
+2023-09-02 01:01:10.996 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587670960pu1  [0;39m ==> Parameters: 
+2023-09-02 01:01:11.047 DEBUG com.example.mapper.TrainMapper.selectByExample    :137  [32m1693587670960pu1  [0;39m <==      Total: 0
+2023-09-02 01:01:11.047 INFO  com.example.service.DailyTrainService             :117  [32m1693587670960pu1  [0;39m 没有车次，任务结束
+2023-09-02 01:01:11.048 INFO  com.example.aspect.LogAspect                      :84   [32m1693587670960pu1  [0;39m 返回结果: {"success":true}
+2023-09-02 01:01:11.048 INFO  com.example.aspect.LogAspect                      :85   [32m1693587670960pu1  [0;39m ------------- 结束 耗时：88 ms -------------
+2023-09-02 01:01:14.525 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-3 - Shutdown initiated...
+2023-09-02 01:01:15.101 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-3 - Shutdown completed.

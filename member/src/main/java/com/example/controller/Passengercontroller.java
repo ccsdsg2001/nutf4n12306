@@ -48,4 +48,10 @@ public CommonResp<List<PassengerQueryResp>> querylist(@Valid  PassengerQueryReq 
 
     }
 
+    @GetMapping("/query-mine")
+    public CommonResp<List<PassengerQueryResp>> queryMine() {
+        List<PassengerQueryResp> list = passengerService.queryMine();
+        return new CommonResp<>(list);
+    }
+
 }

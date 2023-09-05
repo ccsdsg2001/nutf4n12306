@@ -1,8 +1,9 @@
 package com.example.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Train {
+public class Train    {
     private Long id;
 
     private String code;

@@ -11,17 +11,6 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: business
-  data:
-    redis:
-      host: 140.210.221.183
-      port: 6379
-  cache:
-    type: redis
-    redis:
-      use-key-prefix: true
-      key-prefix: train_cache_
-      cache-null-values: false
-      time-to-live: 60s
 
 mybatis:
   mapper-locations: classpath:/mapper/**/*.xml
@@ -31,8 +20,3 @@ logging:
     com:
       example:
         mapper: trace
-
-
-
-
-

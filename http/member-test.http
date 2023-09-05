@@ -24,3 +24,8 @@ Content-Type: application/json
   "mobile": "13032223231",
   "code": "8888"
 }
+
+
+###
+
+GET http://localhost:8001/member/hello

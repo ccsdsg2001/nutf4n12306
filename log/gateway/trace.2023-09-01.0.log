@@ -1,0 +1,101 @@
+2023-09-01 11:20:53.054 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-09-01 11:20:53.103 INFO  com.example.config.gatewayMain                    :51   [32m                  [0;39m Starting gatewayMain using Java 17.0.5 with PID 13268 (E:\workplace\nutf4n12306\gateway\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-09-01 11:20:53.104 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-09-01 11:20:53.153 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01 11:20:53.153 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01 11:20:53.949 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cd6f37cf-bdb9-3a53-b720-34dd934fc231
+2023-09-01 11:20:54.821 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-09-01 11:20:54.822 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-09-01 11:20:54.822 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-09-01 11:20:54.822 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-09-01 11:20:54.822 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-09-01 11:20:54.823 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-09-01 11:20:54.824 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-09-01 11:20:54.824 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-09-01 11:20:54.824 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-09-01 11:20:55.039 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-09-01 11:20:55.578 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-09-01 11:20:56.076 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 3.914 seconds (process running for 4.849)
+2023-09-01 11:20:56.082 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-09-01 11:20:56.082 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello
+2023-09-01 11:26:33.094 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/query
+2023-09-01 11:26:49.833 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/pause
+2023-09-01 11:26:52.215 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:15:20.098 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:15:45.090 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:16:44.731 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:19:54.394 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:21:57.195 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:21:57.222 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [722edc6d-8]  500 Server Error for HTTP POST "/batch/admin/job/add"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8003
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/batch/admin/job/add" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-01 16:22:13.837 INFO  com.example.config.LoginMemberFilter              :31   [32m                  [0;39m 不需要登录验证：/batch/admin/job/add
+2023-09-01 16:22:13.857 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  [32m                  [0;39m [762d41fd-9]  500 Server Error for HTTP POST "/batch/admin/job/add"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8003
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/batch/admin/job/add" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-01 21:32:25.414 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-09-01 21:32:25.480 INFO  com.example.config.gatewayMain                    :51   [32m                  [0;39m Starting gatewayMain using Java 17.0.5 with PID 24516 (E:\workplace\nutf4n12306\gateway\target\classes started by Administrator in E:\workplace\nutf4n12306)
+2023-09-01 21:32:25.482 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-09-01 21:32:25.551 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-01 21:32:25.552 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-01 21:32:26.378 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=cd6f37cf-bdb9-3a53-b720-34dd934fc231
+2023-09-01 21:32:27.310 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-09-01 21:32:27.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-09-01 21:32:27.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-09-01 21:32:27.311 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-09-01 21:32:27.312 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-09-01 21:32:27.313 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-09-01 21:32:27.313 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-09-01 21:32:27.313 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-09-01 21:32:27.313 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-09-01 21:32:27.492 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-09-01 21:32:27.910 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-09-01 21:32:28.429 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 3.87 seconds (process running for 4.893)
+2023-09-01 21:32:28.435 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-09-01 21:32:28.436 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello

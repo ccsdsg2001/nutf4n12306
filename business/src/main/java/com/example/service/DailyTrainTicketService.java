@@ -26,6 +26,8 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.CachePut;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -70,9 +72,14 @@ public class DailyTrainTicketService {
 
     }
 
-    ;
+    @CachePut(value = "DailyTrainTicketService.query")
+    public PageResp<DailyTrainTicketQueryResp> query1(DailyTrainTicketQueryReq req) {
+        return query(req);
+    }
 
 
+
+    @Cacheable(value = "DailyTrainTicketService.query")
     public PageResp<DailyTrainTicketQueryResp> query(DailyTrainTicketQueryReq req) {
 
         DailyTrainTicketExample dailyTrainTicketExample = new DailyTrainTicketExample();

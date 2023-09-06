@@ -98,6 +98,12 @@
             <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-seata</artifactId>
+            <version>2022.0.0.0-RC1</version>
+        </dependency>
+
 
     </dependencies>
 </project>

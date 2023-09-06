@@ -12,6 +12,8 @@ import com.example.mapper.DailyTrainSeatMapper;
 import com.example.mapper.DailyTrainTicketMapperCust;
 import com.example.req.ConfirmOrderTicketReq;
 import com.example.req.MemberTicketReq;
+import io.seata.core.context.RootContext;
+import io.seata.spring.annotation.GlobalTransactional;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
@@ -47,10 +49,10 @@ public class AfterConfirmOrderService {
      *  为会员增加购票记录
      *  更新确认订单为成功
      */
-     @Transactional
-    // @GlobalTransactional
+//     @Transactional
+     @GlobalTransactional
     public void afterDoConfirm(DailyTrainTicket dailyTrainTicket, List<DailyTrainSeat> finalSeatList, List<ConfirmOrderTicketReq> tickets, ConfirmOrder confirmOrder) throws Exception {
-        // LOG.info("seata全局事务ID: {}", RootContext.getXID());
+         LOG.info("seata全局事务ID: {}", RootContext.getXID());
         for (int j = 0; j < finalSeatList.size(); j++) {
             DailyTrainSeat dailyTrainSeat = finalSeatList.get(j);
             DailyTrainSeat seatForUpdate = new DailyTrainSeat();
@@ -135,11 +137,11 @@ public class AfterConfirmOrderService {
             confirmOrderForUpdate.setStatus(ConfirmOrderStatusEnum.SUCCESS.getCode());
             confirmOrderMapper.updateByPrimaryKeySelective(confirmOrderForUpdate);
 
-            // 模拟调用方出现异常
-            // Thread.sleep(10000);
-            // if (1 == 1) {
-            //     throw new Exception("测试异常");
-            // }
+//             模拟调用方出现异常
+//             Thread.sleep(10000);
+//             if (1 == 1) {
+//                 throw new Exception("测试异常");
+//             }
         }
     }
 }

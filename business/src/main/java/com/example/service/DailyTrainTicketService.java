@@ -72,11 +72,15 @@ public class DailyTrainTicketService {
 
     }
 
-    @CachePut(value = "DailyTrainTicketService.query")
+    @CachePut(value = "DailyTrainTicketService.query1")
     public PageResp<DailyTrainTicketQueryResp> query1(DailyTrainTicketQueryReq req) {
         return query(req);
     }
 
+    @CachePut(value = "DailyTrainTicketService.query2")
+    public PageResp<DailyTrainTicketQueryResp> query2(DailyTrainTicketQueryReq req) {
+        return null;
+    }
 
 
     @Cacheable(value = "DailyTrainTicketService.query")

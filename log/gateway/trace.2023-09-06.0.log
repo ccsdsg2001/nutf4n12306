@@ -1,0 +1,114 @@
+2023-09-06 00:13:44.582 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-09-06 00:13:44.582 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-06 00:13:44.584 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-09-06 00:13:44.584 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-09-06 00:13:44.588 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :95   [32m                  [0;39m De-registering from Nacos Server now...
+2023-09-06 00:13:44.589 INFO  com.alibaba.nacos.client.naming                   :216  [32m                  [0;39m [DEREGISTER-SERVICE] public deregistering service gateway with instance: Instance{instanceId='null', ip='169.254.153.93', port=9000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-06 00:13:44.637 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :115  [32m                  [0;39m De-registration finished.
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :256  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :133  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :135  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :258  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :204  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-09-06 00:13:44.638 INFO  com.alibaba.nacos.client.naming                   :143  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.client.naming                   :145  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.client.naming                   :194  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-09-06 00:13:44.639 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-06 00:13:44.639 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.client.naming                   :199  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.client.naming                   :484  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-09-06 00:13:44.639 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-06 00:13:44.639 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.client.naming                   :486  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.common.remote.client            :425  [32m                  [0;39m Shutdown rpc client, set status to shutdown
+2023-09-06 00:13:44.639 INFO  com.alibaba.nacos.common.remote.client            :427  [32m                  [0;39m Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@6eb928d[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-09-06 00:13:44.640 INFO  com.alibaba.nacos.common.remote.client            :580  [32m                  [0;39m Close current connection 1693921875006_119.143.16.48_65502
+2023-09-06 00:13:44.641 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :140  [32m                  [0;39m Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@4b340bae[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 1994]
+2023-09-06 00:13:44.641 INFO  com.alibaba.nacos.client.naming                   :292  [32m                  [0;39m Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@53909bc4[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 2989]
+2023-09-06 00:13:44.641 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :106  [32m                  [0;39m [null] CredentialWatcher is stopped
+2023-09-06 00:13:44.641 INFO  c.a.n.client.auth.ram.identify.CredentialService  :100  [32m                  [0;39m [null] CredentialService is freed
+2023-09-06 00:13:44.641 INFO  com.alibaba.nacos.client.naming                   :211  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop
+2023-09-06 16:54:52.025 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-06 16:54:52.029 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-06 16:54:52.039 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-09-06 16:54:52.118 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-06 16:54:53.554 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-06 16:54:53.565 INFO  com.example.config.gatewayMain                    :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-09-06 16:54:54.012 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=6eccf617-011c-37a7-9459-f690d7c4c521
+2023-09-06 16:54:55.427 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-09-06 16:54:56.570 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-09-06 16:54:56.878 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2023-09-06 16:54:56.878 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2023-09-06 16:54:56.878 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2023-09-06 16:54:56.878 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-09-06 16:54:56.878 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-09-06 16:54:56.879 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-09-06 16:54:56.880 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2023-09-06 16:54:56.880 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-09-06 16:54:58.164 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-09-06 16:54:58.208 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-09-06 16:54:58.395 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  [32m                  [0;39m Netty started on port 9000
+2023-09-06 16:54:59.534 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-09-06 16:55:00.676 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m                  [0;39m Cannot determine local hostname
+2023-09-06 16:55:00.681 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-06 16:55:00.682 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-06 16:55:00.683 INFO  com.alibaba.nacos.client.naming                   :61   [32m                  [0;39m initializer namespace from System Property : null
+2023-09-06 16:55:00.683 INFO  com.alibaba.nacos.client.naming                   :65   [32m                  [0;39m initializer namespace from System Environment :null
+2023-09-06 16:55:00.684 INFO  com.alibaba.nacos.client.naming                   :72   [32m                  [0;39m initializer namespace from System Property :
+2023-09-06 16:55:00.703 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-09-06 16:55:00.704 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-09-06 16:55:00.705 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-06 16:55:00.708 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-06 16:55:00.709 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-06 16:55:00.711 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-09-06 16:55:00.722 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of cc5e444d-b83f-413b-9a5d-d3b054f917b5
+2023-09-06 16:55:00.738 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-09-06 16:55:00.738 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-09-06 16:55:00.738 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-09-06 16:55:00.741 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-06 16:55:01.573 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1693990510539_14.150.235.79_61624
+2023-09-06 16:55:01.574 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Notify connected event to listeners.
+2023-09-06 16:55:01.574 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-06 16:55:01.574 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-09-06 16:55:01.574 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [cc5e444d-b83f-413b-9a5d-d3b054f917b5] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$939/0x00000008012b4d60
+2023-09-06 16:55:01.575 INFO  com.alibaba.nacos.client.naming                   :120  [32m                  [0;39m [REGISTER-SERVICE] public registering service gateway with instance Instance{instanceId='null', ip='169.254.153.93', port=9000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-09-06 16:55:01.637 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   [32m                  [0;39m nacos registry, DEFAULT_GROUP gateway 169.254.153.93:9000 register finished
+2023-09-06 16:55:01.674 INFO  com.example.config.gatewayMain                    :57   [32m                  [0;39m Started gatewayMain in 11.355 seconds (process running for 12.172)
+2023-09-06 16:55:01.676 INFO  com.example.config.gatewayMain                    :20   [32m                  [0;39m 启动成功！！
+2023-09-06 16:55:01.676 INFO  com.example.config.gatewayMain                    :21   [32m                  [0;39m gateway地址: 	http://127.0.0.1:9000{}/hello
+2023-09-06 19:48:40.631 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-06 19:48:40.631 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-09-06 19:48:40.632 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-09-06 19:48:40.632 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-09-06 19:48:40.636 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :95   [32m                  [0;39m De-registering from Nacos Server now...
+2023-09-06 19:48:40.636 INFO  com.alibaba.nacos.client.naming                   :216  [32m                  [0;39m [DEREGISTER-SERVICE] public deregistering service gateway with instance: Instance{instanceId='null', ip='169.254.153.93', port=9000, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2023-09-06 19:48:40.674 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :115  [32m                  [0;39m De-registration finished.
+2023-09-06 19:48:40.674 INFO  com.alibaba.nacos.client.naming                   :256  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown begin
+2023-09-06 19:48:40.674 INFO  com.alibaba.nacos.client.naming                   :133  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2023-09-06 19:48:40.675 INFO  com.alibaba.nacos.client.naming                   :135  [32m                  [0;39m com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2023-09-06 19:48:40.675 INFO  com.alibaba.nacos.client.naming                   :258  [32m                  [0;39m com.alibaba.nacos.client.naming.cache.ServiceInfoHolder do shutdown stop
+2023-09-06 19:48:40.675 INFO  com.alibaba.nacos.client.naming                   :204  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown begin
+2023-09-06 19:48:40.675 INFO  com.alibaba.nacos.client.naming                   :143  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown begin
+2023-09-06 19:48:40.675 INFO  com.alibaba.nacos.client.naming                   :145  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServiceInfoUpdateService do shutdown stop
+2023-09-06 19:48:40.676 INFO  com.alibaba.nacos.client.naming                   :194  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown begin
+2023-09-06 19:48:40.676 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-06 19:48:40.676 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-09-06 19:48:40.676 INFO  com.alibaba.nacos.client.naming                   :199  [32m                  [0;39m com.alibaba.nacos.client.naming.core.ServerListManager do shutdown stop
+2023-09-06 19:48:40.676 INFO  com.alibaba.nacos.client.naming                   :484  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown begin
+2023-09-06 19:48:40.676 WARN  com.alibaba.nacos.client.naming                   :74   [32m                  [0;39m [NamingHttpClientManager] Start destroying NacosRestTemplate
+2023-09-06 19:48:40.676 WARN  com.alibaba.nacos.client.naming                   :81   [32m                  [0;39m [NamingHttpClientManager] Destruction of the end
+2023-09-06 19:48:40.676 INFO  com.alibaba.nacos.client.naming                   :486  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.http.NamingHttpClientProxy do shutdown stop
+2023-09-06 19:48:40.676 INFO  com.alibaba.nacos.common.remote.client            :425  [32m                  [0;39m Shutdown rpc client, set status to shutdown
+2023-09-06 19:48:40.677 INFO  com.alibaba.nacos.common.remote.client            :427  [32m                  [0;39m Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@5c708982[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+2023-09-06 19:48:40.677 INFO  com.alibaba.nacos.common.remote.client            :580  [32m                  [0;39m Close current connection 1693990510539_14.150.235.79_61624
+2023-09-06 19:48:40.684 INFO  c.a.nacos.common.remote.client.grpc.GrpcClient    :140  [32m                  [0;39m Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@553595e0[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 2251]
+2023-09-06 19:48:40.684 INFO  com.alibaba.nacos.client.naming                   :292  [32m                  [0;39m Shutdown grpc redo service executor java.util.concurrent.ScheduledThreadPoolExecutor@78addf58[Running, pool size = 1, active threads = 0, queued tasks = 1, completed tasks = 3463]
+2023-09-06 19:48:40.684 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :106  [32m                  [0;39m [null] CredentialWatcher is stopped
+2023-09-06 19:48:40.684 INFO  c.a.n.client.auth.ram.identify.CredentialService  :100  [32m                  [0;39m [null] CredentialService is freed
+2023-09-06 19:48:40.685 INFO  com.alibaba.nacos.client.naming                   :211  [32m                  [0;39m com.alibaba.nacos.client.naming.remote.NamingClientProxyDelegate do shutdown stop

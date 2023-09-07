@@ -49,7 +49,7 @@ public class Membercontroller {
     }
 
     @PostMapping("/login")
-    public CommonResp<MemberLoginResp> login(@Valid MemberLoginReq mobile){
+    public CommonResp<MemberLoginResp> login(@Valid @RequestBody MemberLoginReq mobile){
         MemberLoginResp login = memberService.login(mobile);
 
         return new CommonResp<>(login);

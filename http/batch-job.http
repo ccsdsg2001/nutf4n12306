@@ -1,20 +1,20 @@
-POST http://localhost:8003/batch/admin/job/add
+POST http://localhost:8000/batch/admin/job/add
 Content-Type: application/json
 
 {
-  "name": "com.example.job.DailyTrainJob",
+  "name": "com.jiawa.train.batch.job.TestJob",
   "jobGroupName": "default",
-  "cronExpression": "0/5 * * * * ?",
+  "cronExpression": "*/2 * * * * ?",
   "desc": "test job"
 }
 
 ###
 
-GET http://localhost:8003/batch/admin/job/query
+GET http://localhost:8000/batch/admin/job/query
 
 ###
 
-POST http://localhost:8003/batch/admin/job/pause
+POST http://localhost:8000/batch/admin/job/pause
 Content-Type: application/json
 
 {
@@ -24,7 +24,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:8003/batch/admin/job/resume
+POST http://localhost:8000/batch/admin/job/resume
 Content-Type: application/json
 
 {
@@ -34,7 +34,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:8003/batch/admin/job/reschedule
+POST http://localhost:8000/batch/admin/job/reschedule
 Content-Type: application/json
 
 {
@@ -46,7 +46,7 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:8003/batch/admin/job/delete
+POST http://localhost:8000/batch/admin/job/delete
 Content-Type: application/json
 
 {
@@ -56,10 +56,10 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:8003/batch/admin/job/run
+POST http://localhost:8000/batch/admin/job/run
 Content-Type: application/json
 
 {
-  "name": "com.example.job.DailyTrainJob",
+"name": "com.jiawa.train.batch.job.DailyTrainJob",
 "jobGroupName": "default"
 }

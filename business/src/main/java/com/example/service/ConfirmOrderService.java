@@ -8,6 +8,8 @@ import cn.hutool.core.util.EnumUtil;
 import cn.hutool.core.util.NumberUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.alibaba.fastjson.JSON;
 import com.example.R.PageResp;
 
@@ -30,7 +32,9 @@ import com.github.pagehelper.PageInfo;
 import com.github.pagehelper.util.StringUtil;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
-import org.redisson.api.RedissonClient;
+
+
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -57,8 +61,8 @@ public class ConfirmOrderService {
     @Resource
     private DailyTrainCarriageService dailyTrainCarriageService;
 
-    @Autowired
-    private RedissonClient redissonClient;
+//    @Autowired
+//    private RedissonClient redissonClient;
 
     @Resource
     private DailyTrainSeatService dailyTrainSeatService;
@@ -124,6 +128,7 @@ public class ConfirmOrderService {
         confirmOrderMapper.deleteByPrimaryKey(id);
     }
 
+    @SentinelResource(value = "doConfirm",blockHandler = "doConfirmBlock")
     public void doconfirm(ConfirmOrderDoReq req) {
         String key =DateUtil.formatDate(req.getDate())+"-"+req.getTrainCode();
 
@@ -453,4 +458,11 @@ try{
             }
         }
     }
+
+//    限流方法
+    public void doConfirmBlock(ConfirmOrderDoReq req, BlockException e){
+        throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_FLOW_EXCEPTION
+        );
+    }
+
 }

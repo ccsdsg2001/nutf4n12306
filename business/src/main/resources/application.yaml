@@ -21,6 +21,11 @@ spring:
       use-key-prefix: true
       key-prefix: train_cache_
       time-to-live: 60s
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 140.210.221.183:8858
+        port: 8719
 
 mybatis:
   mapper-locations: classpath:/mapper/**/*.xml
@@ -30,7 +35,6 @@ logging:
     com:
       example:
         mapper: trace
-
 
 
 

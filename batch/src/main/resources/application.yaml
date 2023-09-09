@@ -11,7 +11,11 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
   application:
     name: batch
-
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 140.210.221.183:8858
+        port: 8719
 mybatis:
   mapper-locations: classpath:/mapper/**/*.xml
 

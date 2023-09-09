@@ -45,7 +45,7 @@
 <!--        <table tableName="train_seat" domainObjectName="TrainSeat"/>-->
 <!--        <table tableName="daily_train_seat" domainObjectName="DailyTrainSeat"/>-->
 <!--        <table tableName="daily_train_ticket" domainObjectName="DailyTrainTicket"/>-->
-        <table tableName="confirm_order" domainObjectName="ConfirmOrder"/>
+        <table tableName="sk_token" domainObjectName="SkToken"/>
 <!--        <table tableName="passenger" domainObjectName="Passenger"/>-->
 <!--        <table tableName="ticket" domainObjectName="Ticket"/>-->
     </context>

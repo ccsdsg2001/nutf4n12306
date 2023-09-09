@@ -21,6 +21,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -38,6 +39,8 @@ public class DailyTrainService {
 
     @Resource
     private  TrainService trainService;
+    @Autowired
+    private SkTokenService skTokenService;
 
     @Resource
     private DailyTrainMapper dailyTrainMapper;
@@ -155,8 +158,8 @@ public class DailyTrainService {
 //        // 生成该车次的余票数据
         dailyTrainTicketService.genDaily(dailyTrain, date, train.getCode());
 //
-//        // 生成令牌余量数据
-//        skTokenService.genDaily(date, train.getCode());
+        // 生成令牌余量数据
+        skTokenService.genDaily(date, train.getCode());
 
         log.info("生成日期【{}】车次【{}】的信息结束", DateUtil.formatDate(date), train.getCode());
     }

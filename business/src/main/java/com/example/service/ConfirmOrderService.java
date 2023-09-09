@@ -17,6 +17,7 @@ import com.example.R.PageResp;
 import com.example.context.LoginMemberContext;
 import com.example.domain.*;
 import com.example.enums.ConfirmOrderStatusEnum;
+import com.example.enums.RedisKeyPreEnum;
 import com.example.enums.SeatColEnum;
 import com.example.enums.SeatTypeEnum;
 import com.example.exception.BusinessException;
@@ -63,6 +64,9 @@ public class ConfirmOrderService {
 
 //    @Autowired
 //    private RedissonClient redissonClient;
+
+    @Autowired
+    private  SkTokenService skTokenService;
 
     @Resource
     private DailyTrainSeatService dailyTrainSeatService;
@@ -130,7 +134,17 @@ public class ConfirmOrderService {
 
     @SentinelResource(value = "doConfirm",blockHandler = "doConfirmBlock")
     public void doconfirm(ConfirmOrderDoReq req) {
-        String key =DateUtil.formatDate(req.getDate())+"-"+req.getTrainCode();
+        String key = RedisKeyPreEnum.CONFIRM_ORDER+DateUtil.formatDate(req.getDate())+"-"+req.getTrainCode();
+         // 校验令牌余量
+         boolean validSkToken = skTokenService.validSkToken(dto.getDate(), dto.getTrainCode(), LoginMemberContext.getId());
+         if (validSkToken) {
+             log.info("令牌校验通过");
+         } else {
+             log.info("令牌校验不通过");
+             throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_SK_TOKEN_FAIL);
+         }
+
+//         获取分布式锁
 
 
         Boolean aBoolean = redisTemplate.opsForValue().setIfAbsent(key, key, 5, TimeUnit.SECONDS);

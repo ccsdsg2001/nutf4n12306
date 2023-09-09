@@ -11,6 +11,10 @@ import com.example.resp.ConfirmOrderQueryResp;
 import com.example.service.ConfirmOrderService;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.util.ObjectUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -26,12 +30,40 @@ public class ConfirmOrderController {
     @Resource
     private ConfirmOrderService confirmOrderService;
 
+//    @Resource
+//    private BeforeConfirmOrderService beforeConfirmOrderService;
+
+    @Autowired
+    private StringRedisTemplate redisTemplate;
+
+    @Value("${spring.profiles.active}")
+    private String env;
+
+
     @SentinelResource(value = "ConfirmOrderDo", blockHandler = "doConfirmBlock")
     @PostMapping("/do")
     public CommonResp<Object> test(@Valid @RequestBody ConfirmOrderDoReq req) {
+        if (!env.equals("dev")) {
+            // 图形验证码校验
+            String imageCodeToken = req.getImageCodeToken();
+            String imageCode = req.getImageCode();
+            String imageCodeRedis = redisTemplate.opsForValue().get(imageCodeToken);
+            log.info("从redis中获取到的验证码：{}", imageCodeRedis);
+            if (ObjectUtils.isEmpty(imageCodeRedis)) {
+                return new CommonResp<>(false, "验证码已过期", null);
+            }
+            // 验证码校验，大小写忽略，提升体验，比如Oo Vv Ww容易混
+            if (!imageCodeRedis.equalsIgnoreCase(imageCode)) {
+                return new CommonResp<>(false, "验证码不正确", null);
+            } else {
+                // 验证通过后，移除验证码
+                redisTemplate.delete(imageCodeToken);
+            }
+        }
 
+//        Long id = beforeConfirmOrderService.beforeDoConfirm(req);
         confirmOrderService.doconfirm(req);
-        return new CommonResp<>();
+        return new CommonResp<>(String.valueOf(id));
     }
 
     public CommonResp<Object> doConfirmBlock(ConfirmOrderDoReq req, BlockException e) {

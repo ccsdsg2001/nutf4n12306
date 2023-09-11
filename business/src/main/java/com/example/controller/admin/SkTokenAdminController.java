@@ -2,6 +2,8 @@ package com.example.controller.admin;
 
 import com.example.R.*;
 import com.example.context.LoginMemberContext;
+import com.example.req.SkTokenQueryReq;
+import com.example.req.SkTokenSaveReq;
 import com.example.resp.SkTokenQueryResp;
 import com.example.service.SkTokenService;
 import jakarta.annotation.Resource;
@@ -16,7 +18,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/admin/sk-token")
-public class SkTokencontroller {
+public class SkTokenAdminController {
 
     @Resource
     private SkTokenService skTokenService;
@@ -30,9 +32,9 @@ public class SkTokencontroller {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<SkTokenQueryResp>> querylist(@Valid  SkTokenQueryReq req){
+public CommonResp<List<SkTokenQueryResp>> querylist(@Valid SkTokenQueryReq req){
 
-        List<SkTokenQueryResp> query = (List<SkTokenQueryResp>) skTokenService.query(req);
+        List<SkTokenQueryResp> query = (List<SkTokenQueryResp>) skTokenService.queryList(req);
         return new CommonResp<>(query);
     }
 

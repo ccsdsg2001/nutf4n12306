@@ -8,9 +8,11 @@ import com.example.exception.BusinessExceptionEnum;
 import com.example.req.ConfirmOrderQueryReq;
 import com.example.req.ConfirmOrderDoReq;
 import com.example.resp.ConfirmOrderQueryResp;
+import com.example.service.BeforeConfirmOrderService;
 import com.example.service.ConfirmOrderService;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.StringRedisTemplate;
@@ -24,14 +26,15 @@ import java.util.List;
  * @date 2023年08月20日 18:28
  */
 @RestController
+@Slf4j
 @RequestMapping("/confirm-order")
 public class ConfirmOrderController {
 
     @Resource
     private ConfirmOrderService confirmOrderService;
 
-//    @Resource
-//    private BeforeConfirmOrderService beforeConfirmOrderService;
+    @Resource
+    private BeforeConfirmOrderService beforeConfirmOrderService;
 
     @Autowired
     private StringRedisTemplate redisTemplate;
@@ -61,8 +64,8 @@ public class ConfirmOrderController {
             }
         }
 
-//        Long id = beforeConfirmOrderService.beforeDoConfirm(req);
-        confirmOrderService.doconfirm(req);
+        Long id = beforeConfirmOrderService.beforeDoConfirm(req);
+//        confirmOrderService.beforeDoConfirm(req);
         return new CommonResp<>(String.valueOf(id));
     }
 
@@ -73,6 +76,17 @@ public class ConfirmOrderController {
         return objectCommonResp;
     }
 
+    @GetMapping("/cancel/{id}")
+    public CommonResp<Integer> cancel(@PathVariable Long id) {
+        Integer count = confirmOrderService.cancel(id);
+        return new CommonResp<>(count);
+    }
+
+    @GetMapping("/query-line-count/{id}")
+    public CommonResp<Integer> queryLineCount(@PathVariable Long id) {
+        Integer count = confirmOrderService.queryLineCount(id);
+        return new CommonResp<>(count);
+    }
 
 
 

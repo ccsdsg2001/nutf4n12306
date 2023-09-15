@@ -115,17 +115,16 @@ public class DailyTrainService {
 
     public void genDaily(Date date){
 //        生成某日所有车次信息，包括车次，车站，车厢，座位
-        List<Train> trains = trainService.selectAll();
-        if(CollUtil.isEmpty(trains)){
-            log.info("没有车次，任务结束");
+        List<Train> trainList = trainService.selectAll();
+        if (CollUtil.isEmpty(trainList)) {
+            log.info("没有车次基础数据，任务结束");
             return;
         }
-        for (Train train : trains) {
+
+        for (Train train : trainList) {
             genDailyTrain(date, train);
         }
-
-
-    };
+    }
 
     @Transactional
     public void genDailyTrain(Date date, Train train) {

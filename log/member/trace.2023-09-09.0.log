@@ -1,0 +1,588 @@
+2023-09-09 04:52:40.568 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:52:40.574 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:52:40.579 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:52:40.599 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-09-09 04:52:40.696 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-09 04:52:41.031 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:52:41.033 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:52:41.036 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-09-09 04:52:41.037 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-09-09 04:52:41.038 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-09 04:52:41.093 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:52:41.094 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:52:41.103 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-09-09 04:52:42.615 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:52:42.616 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:52:42.632 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   [32m                  [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2023-09-09 04:52:42.635 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of 95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0
+2023-09-09 04:52:42.655 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$598/0x0000000800f77968
+2023-09-09 04:52:42.655 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$599/0x0000000800f77d88
+2023-09-09 04:52:42.656 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-09-09 04:52:42.657 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-09-09 04:52:42.665 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:52:43.842 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206372847_14.150.148.94_3526
+2023-09-09 04:52:43.843 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Notify connected event to listeners.
+2023-09-09 04:52:43.843 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:52:43.843 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Connected,notify listen context...
+2023-09-09 04:52:43.843 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [95a5c5db-d0d2-4bbb-ab8a-582e09a6b63d_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e7248
+2023-09-09 04:52:43.878 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   [32m                  [0;39m limitTime:5.0
+2023-09-09 04:52:43.979 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m                  [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-09-09 04:52:44.075 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m                  [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-09-09 04:52:44.135 INFO  com.alibaba.nacos.client.config.utils.JvmUtil     :54   [32m                  [0;39m isMultiInstance:false
+2023-09-09 04:52:44.146 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :108  [32m                  [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-09-09 04:52:44.180 INFO  com.example.MemberMain                            :636  [32m                  [0;39m The following 1 profile is active: "dev"
+2023-09-09 04:52:45.756 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-09 04:52:45.759 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-09 04:52:45.784 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-09-09 04:52:46.022 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.example.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'passengerMapper' and 'com.example.mapper.PassengerMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ticketMapper' and 'com.example.mapper.TicketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'confirmOrderMapper' and 'com.example.mapper.ConfirmOrderMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainCarriageMapper' and 'com.example.mapper.DailyTrainCarriageMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainMapper' and 'com.example.mapper.DailyTrainMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainSeatMapper' and 'com.example.mapper.DailyTrainSeatMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainStationMapper' and 'com.example.mapper.DailyTrainStationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainTicketMapper' and 'com.example.mapper.DailyTrainTicketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainTicketMapperCust' and 'com.example.mapper.DailyTrainTicketMapperCust' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'stationMapper' and 'com.example.mapper.StationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainCarriageMapper' and 'com.example.mapper.TrainCarriageMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainMapper' and 'com.example.mapper.TrainMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainSeatMapper' and 'com.example.mapper.TrainSeatMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.023 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainstationMapper' and 'com.example.mapper.TrainstationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:52:46.025 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.example.mapper]' package. Please check your configuration.
+2023-09-09 04:52:46.121 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=12c46ee1-c466-3037-90c7-8f7bbaac85fd
+2023-09-09 04:52:46.190 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.example.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.205 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.205 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.206 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.267 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.274 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.277 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.279 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$746/0x0000000801273060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.281 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.288 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.292 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:46.296 INFO  i.s.s.boot.autoconfigure.SeataAutoConfiguration   :63   [32m                  [0;39m Automatically configure Seata
+2023-09-09 04:52:46.403 INFO  io.seata.config.ConfigurationFactory              :69   [32m                  [0;39m load Configuration from :Spring Configuration
+2023-09-09 04:52:46.424 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:52:46.427 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:52:46.427 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:52:46.429 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of dd375215-7e46-41a7-a106-be357a94ac68_config-0
+2023-09-09 04:52:46.429 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$598/0x0000000800f77968
+2023-09-09 04:52:46.429 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$599/0x0000000800f77d88
+2023-09-09 04:52:46.430 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-09-09 04:52:46.430 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-09-09 04:52:46.430 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:52:46.858 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206375865_14.150.148.94_3705
+2023-09-09 04:52:46.858 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Notify connected event to listeners.
+2023-09-09 04:52:46.858 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:52:46.858 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Connected,notify listen context...
+2023-09-09 04:52:46.858 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [dd375215-7e46-41a7-a106-be357a94ac68_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e7248
+2023-09-09 04:52:47.135 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   [32m                  [0;39m nacos.cache.data.init.snapshot = true 
+2023-09-09 04:52:47.137 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] seataServer.properties+SEATA_GROUP+nutf4n
+2023-09-09 04:52:47.147 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=seataServer.properties, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:47.663 INFO  i.seata.spring.annotation.GlobalTransactionScanner:208  [32m                  [0;39m Initializing Global Transaction Clients ... 
+2023-09-09 04:52:49.366 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] transport.enableTmClientBatchSendRequest+SEATA_GROUP+nutf4n
+2023-09-09 04:52:49.366 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableTmClientBatchSendRequest, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:49.367 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableTmClientBatchSendRequest, group=SEATA_GROUP, cnt=2
+2023-09-09 04:52:49.525 INFO  io.seata.core.rpc.netty.NettyClientBootstrap      :147  [32m                  [0;39m NettyClientBootstrap has started
+2023-09-09 04:52:49.538 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] service.vgroupMapping.train-group+SEATA_GROUP+nutf4n
+2023-09-09 04:52:49.538 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.vgroupMapping.train-group, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:49.689 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:52:49.691 INFO  com.alibaba.nacos.client.naming                   :72   [32m                  [0;39m initializer namespace from System Property :nutf4n
+2023-09-09 04:52:49.703 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:52:49.704 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:52:49.708 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of f91129d8-a70c-4bcc-9902-5c343d8b3006
+2023-09-09 04:52:49.710 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-09-09 04:52:49.711 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-09-09 04:52:49.711 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-09-09 04:52:49.712 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:52:50.162 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206379174_14.150.148.94_3944
+2023-09-09 04:52:50.162 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:52:50.162 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Notify connected event to listeners.
+2023-09-09 04:52:50.162 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e7248
+2023-09-09 04:52:50.162 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-09-09 04:52:50.164 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:seata-server, group:SEATA_GROUP, clusters:default 
+2023-09-09 04:52:50.270 INFO  com.alibaba.nacos.client.naming                   :184  [32m                  [0;39m init new ips(1) service: SEATA_GROUP@@seata-server@@default -> [{"instanceId":"140.210.221.183#8091#default#SEATA_GROUP@@seata-server","ip":"140.210.221.183","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-09-09 04:52:50.273 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(1) service: SEATA_GROUP@@seata-server@@default -> [{"instanceId":"140.210.221.183#8091#default#SEATA_GROUP@@seata-server","ip":"140.210.221.183","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2023-09-09 04:52:50.278 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:seata-server, group:SEATA_GROUP, clusters:default 
+2023-09-09 04:52:50.281 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :108  [32m                  [0;39m will connect to 140.210.221.183:8091
+2023-09-09 04:52:50.309 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :56   [32m                  [0;39m NettyPool create channel to transactionRole:TMROLE,address:140.210.221.183:8091,msg:< RegisterTMRequest{applicationId='member', transactionServiceGroup='train-group'} >
+2023-09-09 04:52:50.841 WARN  i.s.c.l.EnhancedServiceLoader$InnerEnhancedServiceLoader:543  [32m                  [0;39m Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+2023-09-09 04:52:50.883 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Receive server push request, request = NotifySubscriberRequest, requestId = 527
+2023-09-09 04:52:50.884 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [f91129d8-a70c-4bcc-9902-5c343d8b3006] Ack server push request, request = NotifySubscriberRequest, requestId = 527
+2023-09-09 04:52:50.992 INFO  io.seata.core.rpc.netty.TmNettyRemotingClient     :224  [32m                  [0;39m register TM success. client version:1.6.1, server version:1.6.1,channel:[id: 0xa0e78512, L:/172.20.10.5:10377 - R:/140.210.221.183:8091]
+2023-09-09 04:52:51.001 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :81   [32m                  [0;39m register success, cost 383 ms, version:1.6.1,role:TMROLE,channel:[id: 0xa0e78512, L:/172.20.10.5:10377 - R:/140.210.221.183:8091]
+2023-09-09 04:52:51.003 INFO  i.seata.spring.annotation.GlobalTransactionScanner:222  [32m                  [0;39m Transaction Manager Client is initialized. applicationId[member] txServiceGroup[train-group]
+2023-09-09 04:52:51.110 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] transport.enableRmClientBatchSendRequest+SEATA_GROUP+nutf4n
+2023-09-09 04:52:51.110 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableRmClientBatchSendRequest, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:51.111 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableRmClientBatchSendRequest, group=SEATA_GROUP, cnt=2
+2023-09-09 04:52:51.357 INFO  io.seata.rm.datasource.AsyncWorker                :73   [32m                  [0;39m Async Commit Buffer Limit: 10000
+2023-09-09 04:52:51.357 INFO  io.seata.rm.datasource.xa.ResourceManagerXA       :59   [32m                  [0;39m ResourceManagerXA init ...
+2023-09-09 04:52:51.367 INFO  io.seata.core.rpc.netty.NettyClientBootstrap      :147  [32m                  [0;39m NettyClientBootstrap has started
+2023-09-09 04:52:51.367 INFO  i.seata.spring.annotation.GlobalTransactionScanner:227  [32m                  [0;39m Resource Manager is initialized. applicationId[member] txServiceGroup[train-group]
+2023-09-09 04:52:51.368 INFO  i.seata.spring.annotation.GlobalTransactionScanner:231  [32m                  [0;39m Global Transaction Clients are initialized. 
+2023-09-09 04:52:52.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:52.169 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:52:52.895 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-09-09 04:52:52.913 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-09-09 04:52:52.915 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-09-09 04:52:52.916 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-09-09 04:52:53.054 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-09-09 04:52:53.055 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 8851 ms
+2023-09-09 04:52:53.876 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-09-09 04:52:54.938 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b46e0fc
+2023-09-09 04:52:54.940 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-09-09 04:52:55.152 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :108  [32m                  [0;39m will connect to 140.210.221.183:8091
+2023-09-09 04:52:55.153 INFO  io.seata.core.rpc.netty.RmNettyRemotingClient     :276  [32m                  [0;39m RM will register :jdbc:mysql://140.210.221.183:3306/train_member
+2023-09-09 04:52:55.153 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :56   [32m                  [0;39m NettyPool create channel to transactionRole:RMROLE,address:140.210.221.183:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://140.210.221.183:3306/train_member', applicationId='member', transactionServiceGroup='train-group'} >
+2023-09-09 04:52:55.346 INFO  io.seata.core.rpc.netty.RmNettyRemotingClient     :177  [32m                  [0;39m register RM success. client version:1.6.1, server version:1.6.1,channel:[id: 0xf7947ea8, L:/172.20.10.5:10399 - R:/140.210.221.183:8091]
+2023-09-09 04:52:55.346 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :81   [32m                  [0;39m register success, cost 112 ms, version:1.6.1,role:RMROLE,channel:[id: 0xf7947ea8, L:/172.20.10.5:10399 - R:/140.210.221.183:8091]
+2023-09-09 04:52:56.188 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2023-09-09 04:52:56.859 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] client.tm.degradeCheck+SEATA_GROUP+nutf4n
+2023-09-09 04:52:56.859 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=client.tm.degradeCheck, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:56.860 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=client.tm.degradeCheck, group=SEATA_GROUP, cnt=2
+2023-09-09 04:52:56.976 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] service.disableGlobalTransaction+SEATA_GROUP+nutf4n
+2023-09-09 04:52:56.976 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=1
+2023-09-09 04:52:56.977 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=2
+2023-09-09 04:52:56.977 INFO  i.seata.spring.annotation.GlobalTransactionScanner:305  [32m                  [0;39m Bean[com.example.service.AfterConfirmOrderService] with name [afterConfirmOrderService] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+2023-09-09 04:52:57.158 INFO  org.redisson.Version                              :41   [32m                  [0;39m Redisson 3.21.0
+2023-09-09 04:52:57.423 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'confirmOrderController': Injection of resource dependencies failed
+2023-09-09 04:52:57.428 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-09-09 04:52:57.815 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-09-09 04:52:57.817 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:438  [32m                  [0;39m channel inactive: [id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.817 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :133  [32m                  [0;39m return to pool, rm channel:[id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.817 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :133  [32m                  [0;39m channel valid false,channel:[id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.818 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :120  [32m                  [0;39m will destroy channel:[id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.818 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:52:57.818 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xa0e78512, L:/172.20.10.5:10377 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:52:57.818 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:438  [32m                  [0;39m channel inactive: [id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.818 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :133  [32m                  [0;39m return to pool, rm channel:[id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.819 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :133  [32m                  [0;39m channel valid false,channel:[id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.819 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :120  [32m                  [0;39m will destroy channel:[id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]
+2023-09-09 04:52:57.819 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:52:57.819 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xf7947ea8, L:/172.20.10.5:10399 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:52:57.820 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-09-09 04:52:57.843 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-09 04:52:57.872 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'confirmOrderController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at com.example.MemberMain.main(MemberMain.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'confirmOrderService': Unsatisfied dependency expressed through field 'redissonClient': Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:236)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:488)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	... 50 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$0(ConnectionPool.java:150)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:312)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$6(ConnectionPool.java:271)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at org.redisson.client.RedisClient$1$2.run(RedisClient.java:257)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1097)
+	... 11 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-09 04:52:58.422 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-09-09 04:52:58.422 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-09 04:52:58.422 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-09-09 04:52:58.423 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-09-09 04:58:09.317 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:58:09.320 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:58:09.322 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:58:09.342 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2023-09-09 04:58:09.470 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-09 04:58:09.732 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:58:09.734 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:58:09.736 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   [32m                  [0;39m [settings] [req-serv] nacos-server port:8848
+2023-09-09 04:58:09.737 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   [32m                  [0;39m [settings] [http-client] connect timeout:1000
+2023-09-09 04:58:09.738 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  [32m                  [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-09-09 04:58:09.785 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:58:09.786 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:58:09.790 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  [32m                  [0;39m null No credential found
+2023-09-09 04:58:11.373 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:58:11.374 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   [32m                  [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-09-09 04:58:11.392 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   [32m                  [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\Administrator\nacos\config
+2023-09-09 04:58:11.396 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of 58874fd5-0643-4884-9d1c-886429b297f2_config-0
+2023-09-09 04:58:11.417 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$598/0x0000000800f764c0
+2023-09-09 04:58:11.417 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$599/0x0000000800f768e0
+2023-09-09 04:58:11.418 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-09-09 04:58:11.419 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-09-09 04:58:11.426 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:58:12.625 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206701573_14.150.148.94_3893
+2023-09-09 04:58:12.626 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Notify connected event to listeners.
+2023-09-09 04:58:12.626 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:58:12.626 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Connected,notify listen context...
+2023-09-09 04:58:12.626 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [58874fd5-0643-4884-9d1c-886429b297f2_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e5d28
+2023-09-09 04:58:12.667 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   [32m                  [0;39m limitTime:5.0
+2023-09-09 04:58:12.748 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m                  [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-09-09 04:58:12.864 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   [32m                  [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-09-09 04:58:12.965 INFO  com.alibaba.nacos.client.config.utils.JvmUtil     :54   [32m                  [0;39m isMultiInstance:false
+2023-09-09 04:58:12.970 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :108  [32m                  [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-09-09 04:58:12.996 INFO  com.example.MemberMain                            :636  [32m                  [0;39m The following 1 profile is active: "dev"
+2023-09-09 04:58:14.706 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :294  [32m                  [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-09-09 04:58:14.710 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  [32m                  [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-09-09 04:58:14.755 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  [32m                  [0;39m Finished Spring Data repository scanning in 29 ms. Found 0 Redis repository interfaces.
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'memberMapper' and 'com.example.mapper.MemberMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'passengerMapper' and 'com.example.mapper.PassengerMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'ticketMapper' and 'com.example.mapper.TicketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'confirmOrderMapper' and 'com.example.mapper.ConfirmOrderMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainCarriageMapper' and 'com.example.mapper.DailyTrainCarriageMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.036 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainMapper' and 'com.example.mapper.DailyTrainMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainSeatMapper' and 'com.example.mapper.DailyTrainSeatMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainStationMapper' and 'com.example.mapper.DailyTrainStationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainTicketMapper' and 'com.example.mapper.DailyTrainTicketMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'dailyTrainTicketMapperCust' and 'com.example.mapper.DailyTrainTicketMapperCust' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'stationMapper' and 'com.example.mapper.StationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainCarriageMapper' and 'com.example.mapper.TrainCarriageMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainMapper' and 'com.example.mapper.TrainMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.037 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainSeatMapper' and 'com.example.mapper.TrainSeatMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.038 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m Skipping MapperFactoryBean with name 'trainstationMapper' and 'com.example.mapper.TrainstationMapper' mapperInterface. Bean already defined with the same name!
+2023-09-09 04:58:15.038 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.example.mapper]' package. Please check your configuration.
+2023-09-09 04:58:15.200 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=12c46ee1-c466-3037-90c7-8f7bbaac85fd
+2023-09-09 04:58:15.369 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.example.feign.MemberFeign' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.388 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataCoreAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.389 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'springApplicationContextProvider' of type [io.seata.spring.boot.autoconfigure.provider.SpringApplicationContextProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.390 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'io.seata.spring.boot.autoconfigure.SeataAutoConfiguration' of type [io.seata.spring.boot.autoconfigure.SeataAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.452 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'failureHandler' of type [io.seata.tm.api.DefaultFailureHandlerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.456 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration' of type [org.springframework.cloud.commons.config.CommonsConfigAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.458 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.459 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'loadBalancerClientsDefaultsMappingsProvider' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerDefaultMappingsProviderAutoConfiguration$$Lambda$746/0x0000000801273060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.460 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'defaultsBindHandlerAdvisor' of type [org.springframework.cloud.commons.config.DefaultsBindHandlerAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.467 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'springCloudAlibabaConfiguration' of type [io.seata.spring.boot.autoconfigure.properties.SpringCloudAlibabaConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.473 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'seataProperties' of type [io.seata.spring.boot.autoconfigure.properties.SeataProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:15.477 INFO  i.s.s.boot.autoconfigure.SeataAutoConfiguration   :63   [32m                  [0;39m Automatically configure Seata
+2023-09-09 04:58:15.563 INFO  io.seata.config.ConfigurationFactory              :69   [32m                  [0;39m load Configuration from :Spring Configuration
+2023-09-09 04:58:15.593 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:58:15.595 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:58:15.595 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:58:15.596 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of c5cee6cd-c23d-486f-972b-de578e66ee99_config-0
+2023-09-09 04:58:15.597 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$598/0x0000000800f764c0
+2023-09-09 04:58:15.597 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$599/0x0000000800f768e0
+2023-09-09 04:58:15.598 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-09-09 04:58:15.598 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-09-09 04:58:15.599 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:58:15.932 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206705043_14.150.148.94_3576
+2023-09-09 04:58:15.932 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Notify connected event to listeners.
+2023-09-09 04:58:15.933 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Connected,notify listen context...
+2023-09-09 04:58:15.933 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:58:15.933 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [c5cee6cd-c23d-486f-972b-de578e66ee99_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e5d28
+2023-09-09 04:58:16.315 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   [32m                  [0;39m nacos.cache.data.init.snapshot = true 
+2023-09-09 04:58:16.317 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] seataServer.properties+SEATA_GROUP+nutf4n
+2023-09-09 04:58:16.325 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=seataServer.properties, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:16.778 INFO  i.seata.spring.annotation.GlobalTransactionScanner:208  [32m                  [0;39m Initializing Global Transaction Clients ... 
+2023-09-09 04:58:18.019 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] transport.enableTmClientBatchSendRequest+SEATA_GROUP+nutf4n
+2023-09-09 04:58:18.019 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableTmClientBatchSendRequest, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:18.020 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableTmClientBatchSendRequest, group=SEATA_GROUP, cnt=2
+2023-09-09 04:58:18.149 INFO  io.seata.core.rpc.netty.NettyClientBootstrap      :147  [32m                  [0;39m NettyClientBootstrap has started
+2023-09-09 04:58:18.160 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] service.vgroupMapping.train-group+SEATA_GROUP+nutf4n
+2023-09-09 04:58:18.160 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.vgroupMapping.train-group, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:18.262 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  [32m                  [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-09-09 04:58:18.264 INFO  com.alibaba.nacos.client.naming                   :72   [32m                  [0;39m initializer namespace from System Property :nutf4n
+2023-09-09 04:58:18.274 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-09-09 04:58:18.274 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   [32m                  [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-09-09 04:58:18.279 INFO  com.alibaba.nacos.common.remote.client            :94   [32m                  [0;39m [RpcClientFactory] create a new rpc client of 56cfbea2-da07-4c8d-a52e-821ac6acaad7
+2023-09-09 04:58:18.281 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-09-09 04:58:18.282 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-09-09 04:58:18.282 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-09-09 04:58:18.283 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Try to connect to server on start up, server: {serverIp = '140.210.221.183', server main port = 8848}
+2023-09-09 04:58:18.892 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Success to connect to server [140.210.221.183:8848] on start up, connectionId = 1694206707845_14.150.148.94_3620
+2023-09-09 04:58:18.892 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-09-09 04:58:18.892 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Notify connected event to listeners.
+2023-09-09 04:58:18.892 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$614/0x00000008010e5d28
+2023-09-09 04:58:18.892 INFO  com.alibaba.nacos.client.naming                   :78   [32m                  [0;39m Grpc connection connect
+2023-09-09 04:58:18.894 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:seata-server, group:SEATA_GROUP, clusters:default 
+2023-09-09 04:58:19.029 INFO  com.alibaba.nacos.client.naming                   :184  [32m                  [0;39m init new ips(1) service: SEATA_GROUP@@seata-server@@default -> [{"instanceId":"140.210.221.183#8091#default#SEATA_GROUP@@seata-server","ip":"140.210.221.183","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ipDeleteTimeout":30000}]
+2023-09-09 04:58:19.032 INFO  com.alibaba.nacos.client.naming                   :169  [32m                  [0;39m current ips:(1) service: SEATA_GROUP@@seata-server@@default -> [{"instanceId":"140.210.221.183#8091#default#SEATA_GROUP@@seata-server","ip":"140.210.221.183","port":8091,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"default","serviceName":"SEATA_GROUP@@seata-server","metadata":{},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"instanceIdGenerator":"simple","ipDeleteTimeout":30000}]
+2023-09-09 04:58:19.037 INFO  com.alibaba.nacos.client.naming                   :167  [32m                  [0;39m [SUBSCRIBE-SERVICE] service:seata-server, group:SEATA_GROUP, clusters:default 
+2023-09-09 04:58:19.038 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :108  [32m                  [0;39m will connect to 140.210.221.183:8091
+2023-09-09 04:58:19.055 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :56   [32m                  [0;39m NettyPool create channel to transactionRole:TMROLE,address:140.210.221.183:8091,msg:< RegisterTMRequest{applicationId='member', transactionServiceGroup='train-group'} >
+2023-09-09 04:58:19.708 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Receive server push request, request = NotifySubscriberRequest, requestId = 528
+2023-09-09 04:58:19.709 INFO  com.alibaba.nacos.common.remote.client            :60   [32m                  [0;39m [56cfbea2-da07-4c8d-a52e-821ac6acaad7] Ack server push request, request = NotifySubscriberRequest, requestId = 528
+2023-09-09 04:58:19.925 WARN  i.s.c.l.EnhancedServiceLoader$InnerEnhancedServiceLoader:543  [32m                  [0;39m Load [io.seata.serializer.hessian.HessianSerializer] class fail. com/caucho/hessian/io/AbstractHessianOutput
+2023-09-09 04:58:20.063 INFO  io.seata.core.rpc.netty.TmNettyRemotingClient     :224  [32m                  [0;39m register TM success. client version:1.6.1, server version:1.6.1,channel:[id: 0xade01d86, L:/172.20.10.5:27132 - R:/140.210.221.183:8091]
+2023-09-09 04:58:20.069 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :81   [32m                  [0;39m register success, cost 333 ms, version:1.6.1,role:TMROLE,channel:[id: 0xade01d86, L:/172.20.10.5:27132 - R:/140.210.221.183:8091]
+2023-09-09 04:58:20.070 INFO  i.seata.spring.annotation.GlobalTransactionScanner:222  [32m                  [0;39m Transaction Manager Client is initialized. applicationId[member] txServiceGroup[train-group]
+2023-09-09 04:58:20.180 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] transport.enableRmClientBatchSendRequest+SEATA_GROUP+nutf4n
+2023-09-09 04:58:20.180 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableRmClientBatchSendRequest, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:20.181 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=transport.enableRmClientBatchSendRequest, group=SEATA_GROUP, cnt=2
+2023-09-09 04:58:20.346 INFO  io.seata.rm.datasource.AsyncWorker                :73   [32m                  [0;39m Async Commit Buffer Limit: 10000
+2023-09-09 04:58:20.347 INFO  io.seata.rm.datasource.xa.ResourceManagerXA       :59   [32m                  [0;39m ResourceManagerXA init ...
+2023-09-09 04:58:20.361 INFO  io.seata.core.rpc.netty.NettyClientBootstrap      :147  [32m                  [0;39m NettyClientBootstrap has started
+2023-09-09 04:58:20.361 INFO  i.seata.spring.annotation.GlobalTransactionScanner:227  [32m                  [0;39m Resource Manager is initialized. applicationId[member] txServiceGroup[train-group]
+2023-09-09 04:58:20.361 INFO  i.seata.spring.annotation.GlobalTransactionScanner:231  [32m                  [0;39m Global Transaction Clients are initialized. 
+2023-09-09 04:58:21.163 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration' of type [com.alibaba.cloud.seata.feign.SeataFeignClientAutoConfiguration$FeignBeanPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:21.169 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:409  [32m                  [0;39m Bean 'seataFeignObjectWrapper' of type [com.alibaba.cloud.seata.feign.SeataFeignObjectWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-09-09 04:58:21.881 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-09-09 04:58:21.894 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-09-09 04:58:21.895 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2023-09-09 04:58:21.895 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2023-09-09 04:58:21.978 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2023-09-09 04:58:21.978 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 8960 ms
+2023-09-09 04:58:22.534 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2023-09-09 04:58:23.606 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74e11c26
+2023-09-09 04:58:23.608 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2023-09-09 04:58:23.749 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :108  [32m                  [0;39m will connect to 140.210.221.183:8091
+2023-09-09 04:58:23.750 INFO  io.seata.core.rpc.netty.RmNettyRemotingClient     :276  [32m                  [0;39m RM will register :jdbc:mysql://140.210.221.183:3306/train_member
+2023-09-09 04:58:23.750 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :56   [32m                  [0;39m NettyPool create channel to transactionRole:RMROLE,address:140.210.221.183:8091,msg:< RegisterRMRequest{resourceIds='jdbc:mysql://140.210.221.183:3306/train_member', applicationId='member', transactionServiceGroup='train-group'} >
+2023-09-09 04:58:23.941 INFO  io.seata.core.rpc.netty.RmNettyRemotingClient     :177  [32m                  [0;39m register RM success. client version:1.6.1, server version:1.6.1,channel:[id: 0x1ac27a4d, L:/172.20.10.5:27145 - R:/140.210.221.183:8091]
+2023-09-09 04:58:23.941 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :81   [32m                  [0;39m register success, cost 124 ms, version:1.6.1,role:RMROLE,channel:[id: 0x1ac27a4d, L:/172.20.10.5:27145 - R:/140.210.221.183:8091]
+2023-09-09 04:58:24.809 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   [32m                  [0;39m Unable to start LiveReload server
+2023-09-09 04:58:25.490 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] client.tm.degradeCheck+SEATA_GROUP+nutf4n
+2023-09-09 04:58:25.491 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=client.tm.degradeCheck, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:25.491 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=client.tm.degradeCheck, group=SEATA_GROUP, cnt=2
+2023-09-09 04:58:25.578 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [subscribe] service.disableGlobalTransaction+SEATA_GROUP+nutf4n
+2023-09-09 04:58:25.578 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=1
+2023-09-09 04:58:25.579 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  [32m                  [0;39m [fixed-nutf4n-140.210.221.183_8848] [add-listener] ok, tenant=nutf4n, dataId=service.disableGlobalTransaction, group=SEATA_GROUP, cnt=2
+2023-09-09 04:58:25.579 INFO  i.seata.spring.annotation.GlobalTransactionScanner:305  [32m                  [0;39m Bean[com.example.service.AfterConfirmOrderService] with name [afterConfirmOrderService] would use interceptor [io.seata.spring.annotation.GlobalTransactionalInterceptor]
+2023-09-09 04:58:25.601 WARN  o.s.core.LocalVariableTableParameterNameDiscoverer:123  [32m                  [0;39m Using deprecated '-debug' fallback for parameter name resolution. Compile the affected code with '-parameters' instead or avoid its introspection: org.redisson.spring.starter.RedissonAutoConfiguration
+2023-09-09 04:58:25.717 INFO  org.redisson.Version                              :41   [32m                  [0;39m Redisson 3.21.0
+2023-09-09 04:58:25.957 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'confirmOrderController': Injection of resource dependencies failed
+2023-09-09 04:58:25.961 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2023-09-09 04:58:36.108 WARN  com.zaxxer.hikari.pool.HikariPool                 :244  [32m                  [0;39m Timed-out waiting for close connection executor to shutdown
+2023-09-09 04:58:36.108 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2023-09-09 04:58:36.109 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:438  [32m                  [0;39m channel inactive: [id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.109 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :133  [32m                  [0;39m return to pool, rm channel:[id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.110 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :133  [32m                  [0;39m channel valid false,channel:[id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.110 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :120  [32m                  [0;39m will destroy channel:[id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.110 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:58:36.110 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0xade01d86, L:/172.20.10.5:27132 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:58:36.110 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:438  [32m                  [0;39m channel inactive: [id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.110 INFO  io.seata.core.rpc.netty.NettyClientChannelManager :133  [32m                  [0;39m return to pool, rm channel:[id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.110 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :133  [32m                  [0;39m channel valid false,channel:[id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.111 INFO  io.seata.core.rpc.netty.NettyPoolableFactory      :120  [32m                  [0;39m will destroy channel:[id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]
+2023-09-09 04:58:36.111 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:58:36.111 INFO  i.seata.core.rpc.netty.AbstractNettyRemotingClient:488  [32m                  [0;39m ChannelHandlerContext(AbstractNettyRemotingClient$ClientHandler#0, [id: 0x1ac27a4d, L:/172.20.10.5:27145 ! R:/140.210.221.183:8091]) will closed
+2023-09-09 04:58:36.112 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2023-09-09 04:58:36.137 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-09-09 04:58:36.164 ERROR org.springframework.boot.SpringApplication        :820  [32m                  [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'confirmOrderController': Injection of resource dependencies failed
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at com.example.MemberMain.main(MemberMain.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'confirmOrderService': Unsatisfied dependency expressed through field 'redisTemplate': Error creating bean with name 'stringRedisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'stringRedisTemplate' parameter 0: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:712)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:692)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1397)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:467)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:618)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:236)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:127)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:300)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'stringRedisTemplate' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'stringRedisTemplate' parameter 0: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:793)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:709)
+	... 37 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'redissonConnectionFactory' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Unsatisfied dependency expressed through method 'redissonConnectionFactory' parameter 0: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:793)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:880)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:784)
+	... 50 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisson' defined in class path resource [org/redisson/spring/starter/RedissonAutoConfiguration.class]: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:488)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1324)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1161)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:561)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1405)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1325)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:880)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:784)
+	... 64 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.redisson.api.RedissonClient]: Factory method 'redisson' threw exception with message: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	... 78 common frames omitted
+Caused by: org.redisson.client.RedisConnectionException: Unable to connect to Redis server: localhost/127.0.0.1:6379
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$0(ConnectionPool.java:150)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at org.redisson.connection.pool.ConnectionPool.promiseFailure(ConnectionPool.java:312)
+	at org.redisson.connection.pool.ConnectionPool.lambda$createConnection$6(ConnectionPool.java:271)
+	at java.base/java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:863)
+	at java.base/java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:841)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at org.redisson.client.RedisClient$1$2.run(RedisClient.java:257)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.concurrent.CompletionException: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+	at java.base/java.util.concurrent.CompletableFuture.encodeRelay(CompletableFuture.java:368)
+	at java.base/java.util.concurrent.CompletableFuture.completeRelay(CompletableFuture.java:377)
+	at java.base/java.util.concurrent.CompletableFuture$UniRelay.tryFire(CompletableFuture.java:1097)
+	... 11 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-09 04:58:36.170 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  [32m                  [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-09-09 04:58:36.170 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  [32m                  [0;39m [NotifyCenter] Start destroying Publisher
+2023-09-09 04:58:36.171 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  [32m                  [0;39m [NotifyCenter] Destruction of the end
+2023-09-09 04:58:36.171 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  [32m                  [0;39m [HttpClientBeanHolder] Destruction of the end

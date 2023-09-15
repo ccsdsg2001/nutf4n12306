@@ -20,6 +20,7 @@ import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -84,7 +85,8 @@ public class TrainService {
 
     }
 
-    public List<TrainQueryResp> queryAll(){
+    @Transactional
+    public List<TrainQueryResp> queryAll() {
         List<Train> trainList = selectAll();
         // LOG.info("再查一次");
         // trainList = selectAll();
@@ -95,6 +97,10 @@ public class TrainService {
         trainExample.setOrderByClause("code asc");
         return trainMapper.selectByExample(trainExample);
     }
+
+
+
+
     private Train selectByUnique(String  code) {
         TrainExample stationExample = new TrainExample();
         stationExample.createCriteria().andCodeEqualTo(code);

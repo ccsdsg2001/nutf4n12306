@@ -30,6 +30,18 @@
             <scope>test</scope>
         </dependency>
 
+<!--        jedis-->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>4.3.1</version><!--版本号可根据实际情况填写-->
+        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.apache.commons</groupId>-->
+<!--            <artifactId>commons-lang3</artifactId>-->
+<!--            <version>3.3.2</version>-->
+<!--        </dependency>-->
+
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
@@ -53,6 +65,8 @@
 
     </dependencies>
     <build>
+        <finalName>/dist/${artifactId}</finalName>
+
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>

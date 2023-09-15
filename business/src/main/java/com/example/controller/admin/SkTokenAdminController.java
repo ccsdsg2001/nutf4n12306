@@ -32,9 +32,9 @@ public class SkTokenAdminController {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<SkTokenQueryResp>> querylist(@Valid SkTokenQueryReq req){
+public CommonResp<PageResp<SkTokenQueryResp>> querylist(@Valid SkTokenQueryReq req){
 
-        List<SkTokenQueryResp> query = (List<SkTokenQueryResp>) skTokenService.queryList(req);
+        PageResp<SkTokenQueryResp> query =  skTokenService.queryList(req);
         return new CommonResp<>(query);
     }
 

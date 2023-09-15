@@ -32,9 +32,9 @@ public class TrainCarriageAdminController {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<TrainCarriageQueryResp>> querylist(@Valid TrainCarriageQueryReq req){
+public CommonResp<PageResp<TrainCarriageQueryResp>> querylist(@Valid TrainCarriageQueryReq req){
 
-        List<TrainCarriageQueryResp> query = (List<TrainCarriageQueryResp>) trainCarriageService.query(req);
+        PageResp<TrainCarriageQueryResp> query =  trainCarriageService.query(req);
         return new CommonResp<>(query);
     }
 

@@ -1,14 +1,26 @@
-GET http://localhost:8001/member/hello
+POST http://localhost:8001/member/member/login
 Accept: application/json
+Content-Type: application/json;charset=UTF-8
+
+{
+  "mobile": "18998016831",
+  "code": "1480"
+}
+
 
 ###
 
-GET http://localhost:8000/member/hello
+POST http://localhost:8001/member/member/send-code
 Accept: application/json
+Content-Type: application/json;charset=UTF-8
+
+
+{ "mobile":"18998016831"
+}
 
 ###
 
-GET http://47.101.44.52/member/hello
+GET http://47.101.44.52/member/mem
 Accept: application/json
 
 ###

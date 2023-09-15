@@ -32,9 +32,9 @@ public class DailyTrainStationAdminController {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<DailyTrainStationQueryResp>> querylist(@Valid DailyTrainStationQueryReq req){
+public CommonResp<PageResp<DailyTrainStationQueryResp>> querylist(@Valid DailyTrainStationQueryReq req){
 
-        List<DailyTrainStationQueryResp> query = (List<DailyTrainStationQueryResp>) dailyTrainStationService.queryList(req);
+        PageResp<DailyTrainStationQueryResp> query =dailyTrainStationService.queryList(req);
         return new CommonResp<>(query);
     }
 

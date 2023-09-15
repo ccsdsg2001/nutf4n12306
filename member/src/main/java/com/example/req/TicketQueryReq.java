@@ -1,9 +1,8 @@
 package com.example.req;
 
-import com.example.req.PageReq;
+
 
 public class TicketQueryReq extends PageReq {
-
 
     private Long memberId;
 

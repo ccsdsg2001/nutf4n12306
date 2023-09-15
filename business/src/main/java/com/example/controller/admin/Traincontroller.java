@@ -36,9 +36,9 @@ public class Traincontroller {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<TrainQueryResp>> querylist(@Valid TrainQueryReq req){
+public CommonResp<PageResp<TrainQueryResp>> querylist(@Valid TrainQueryReq req){
 
-        List<TrainQueryResp> query = (List<TrainQueryResp>) trainService.query(req);
+        PageResp<TrainQueryResp> query = trainService.query(req);
         return new CommonResp<>(query);
     }
 
@@ -59,7 +59,7 @@ public CommonResp<List<TrainQueryResp>> querylist(@Valid TrainQueryReq req){
         return new CommonResp<>(query);
     }
 
-    @DeleteMapping("/gen-seat/{trainCode}")
+    @GetMapping("/gen-seat/{trainCode}")
     public  CommonResp<Object> genSeat( @PathVariable String trainCode){
         trainSeatService.genTrainSeat(trainCode);
 

@@ -27,9 +27,9 @@ public class TicketAdminController {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<TicketQueryResp>> querylist(@Valid TicketQueryReq req){
+public CommonResp<PageResp<TicketQueryResp>> querylist(@Valid TicketQueryReq req){
 
-        List<TicketQueryResp> query = (List<TicketQueryResp>) ticketService.query(req);
+        PageResp<TicketQueryResp> query =ticketService.query(req);
         return new CommonResp<>(query);
     }
 

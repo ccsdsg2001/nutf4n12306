@@ -32,9 +32,9 @@ public class Passengercontroller {
 
 
     @GetMapping("/query-list")
-public CommonResp<List<PassengerQueryResp>> querylist(@Valid  PassengerQueryReq req){
+public CommonResp<PageResp<PassengerQueryResp>> querylist(@Valid  PassengerQueryReq req){
         req.setMemberId(LoginMemberContext.getId());
-        List<PassengerQueryResp> query = (List<PassengerQueryResp>) passengerService.query(req);
+        PageResp<PassengerQueryResp> query =  passengerService.query(req);
         return new CommonResp<>(query);
     }
 

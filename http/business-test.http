@@ -1,4 +1,4 @@
-GET http://localhost:9000/business/hello
+GET http://localhost:8002/business/admin/confirm-order/query-list?page=1&size=10
 Accept: application/json
 
 ###

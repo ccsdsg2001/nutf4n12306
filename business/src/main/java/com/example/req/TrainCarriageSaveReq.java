@@ -34,7 +34,7 @@ public class TrainCarriageSaveReq {
     /**
      * 座位数
      */
-    @NotNull(message = "【座位数】不能为空")
+//    @NotNull(message = "【座位数】不能为空")
     private Integer seatCount;
 
     /**
